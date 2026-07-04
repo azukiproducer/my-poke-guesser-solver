@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T13:52:37.165Z",
+  "generatedAt": "2026-07-04T14:03:58.143Z",
   "source": "PokeAPI",
   "pokemon": [
     {
@@ -82,7 +82,7 @@
       "dexNo": 3,
       "nameJa": "メガフシギバナ",
       "nameEn": "venusaur-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "くさ",
         "どく"
@@ -154,7 +154,7 @@
       "dexNo": 6,
       "nameJa": "メガリザードンX",
       "nameEn": "charizard-mega-x",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "ほのお",
         "ドラゴン"
@@ -178,7 +178,7 @@
       "dexNo": 6,
       "nameJa": "メガリザードンY",
       "nameEn": "charizard-mega-y",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "ほのお",
         "ひこう"
@@ -299,7 +299,7 @@
       "dexNo": 9,
       "nameJa": "メガカメックス",
       "nameEn": "blastoise-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "みず"
       ],
@@ -462,7 +462,7 @@
       "dexNo": 15,
       "nameJa": "メガスピアー",
       "nameEn": "beedrill-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "むし",
         "どく"
@@ -560,7 +560,7 @@
       "dexNo": 18,
       "nameJa": "メガピジョット",
       "nameEn": "pidgeot-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "ノーマル",
         "ひこう"
@@ -607,7 +607,7 @@
       "dexNo": 19,
       "nameJa": "コラッタ(アローラのすがた)",
       "nameEn": "rattata-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "あく",
         "ノーマル"
@@ -656,7 +656,7 @@
       "dexNo": 20,
       "nameJa": "ラッタ(アローラのすがた)",
       "nameEn": "raticate-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "あく",
         "ノーマル"
@@ -803,7 +803,7 @@
       "dexNo": 26,
       "nameJa": "メガライチュウX",
       "nameEn": "raichu-mega-x",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "でんき"
       ],
@@ -826,7 +826,7 @@
       "dexNo": 26,
       "nameJa": "メガライチュウY",
       "nameEn": "raichu-mega-y",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "でんき"
       ],
@@ -873,7 +873,7 @@
       "dexNo": 26,
       "nameJa": "ライチュウ(アローラのすがた)",
       "nameEn": "raichu-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "でんき",
         "エスパー"
@@ -920,7 +920,7 @@
       "dexNo": 27,
       "nameJa": "サンド(アローラのすがた)",
       "nameEn": "sandshrew-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "こおり",
         "はがね"
@@ -967,7 +967,7 @@
       "dexNo": 28,
       "nameJa": "サンドパン(アローラのすがた)",
       "nameEn": "sandslash-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "こおり",
         "はがね"
@@ -1189,7 +1189,7 @@
       "dexNo": 36,
       "nameJa": "メガピクシー",
       "nameEn": "clefable-mega",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "フェアリー",
         "ひこう"
@@ -1235,7 +1235,7 @@
       "dexNo": 37,
       "nameJa": "ロコン(アローラのすがた)",
       "nameEn": "vulpix-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "こおり"
       ],
@@ -1281,7 +1281,7 @@
       "dexNo": 38,
       "nameJa": "キュウコン(アローラのすがた)",
       "nameEn": "ninetales-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "こおり",
         "フェアリー"
@@ -1601,7 +1601,7 @@
       "dexNo": 50,
       "nameJa": "ディグダ(アローラのすがた)",
       "nameEn": "diglett-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "じめん",
         "はがね"
@@ -1650,7 +1650,7 @@
       "dexNo": 51,
       "nameJa": "ダグトリオ(アローラのすがた)",
       "nameEn": "dugtrio-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "じめん",
         "はがね"
@@ -1699,7 +1699,7 @@
       "dexNo": 52,
       "nameJa": "ニャース(アローラのすがた)",
       "nameEn": "meowth-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "あく"
       ],
@@ -1723,7 +1723,7 @@
       "dexNo": 52,
       "nameJa": "ニャース(ガラルのすがた)",
       "nameEn": "meowth-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "はがね"
       ],
@@ -1771,7 +1771,7 @@
       "dexNo": 53,
       "nameJa": "ペルシアン(アローラのすがた)",
       "nameEn": "persian-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "あく"
       ],
@@ -1917,7 +1917,7 @@
       "dexNo": 58,
       "nameJa": "ガーディ(ヒスイのすがた)",
       "nameEn": "growlithe-hisui",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "ほのお",
         "いわ"
@@ -1966,7 +1966,7 @@
       "dexNo": 59,
       "nameJa": "ウインディ(ヒスイのすがた)",
       "nameEn": "arcanine-hisui",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "ほのお",
         "いわ"
@@ -2136,7 +2136,7 @@
       "dexNo": 65,
       "nameJa": "メガフーディン",
       "nameEn": "alakazam-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "エスパー"
       ],
@@ -2302,7 +2302,7 @@
       "dexNo": 71,
       "nameJa": "メガウツボット",
       "nameEn": "victreebel-mega",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "くさ",
         "どく"
@@ -2400,7 +2400,7 @@
       "dexNo": 74,
       "nameJa": "イシツブテ(アローラのすがた)",
       "nameEn": "geodude-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "いわ",
         "でんき"
@@ -2450,7 +2450,7 @@
       "dexNo": 75,
       "nameJa": "ゴローン(アローラのすがた)",
       "nameEn": "graveler-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "いわ",
         "でんき"
@@ -2500,7 +2500,7 @@
       "dexNo": 76,
       "nameJa": "ゴローニャ(アローラのすがた)",
       "nameEn": "golem-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "いわ",
         "でんき"
@@ -2549,7 +2549,7 @@
       "dexNo": 77,
       "nameJa": "ポニータ(ガラルのすがた)",
       "nameEn": "ponyta-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "エスパー"
       ],
@@ -2597,7 +2597,7 @@
       "dexNo": 78,
       "nameJa": "ギャロップ(ガラルのすがた)",
       "nameEn": "rapidash-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "エスパー",
         "フェアリー"
@@ -2648,7 +2648,7 @@
       "dexNo": 79,
       "nameJa": "ヤドン(ガラルのすがた)",
       "nameEn": "slowpoke-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "エスパー"
       ],
@@ -2673,7 +2673,7 @@
       "dexNo": 80,
       "nameJa": "メガヤドラン",
       "nameEn": "slowbro-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "みず",
         "エスパー"
@@ -2723,7 +2723,7 @@
       "dexNo": 80,
       "nameJa": "ヤドラン(ガラルのすがた)",
       "nameEn": "slowbro-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "どく",
         "エスパー"
@@ -2825,7 +2825,7 @@
       "dexNo": 83,
       "nameJa": "カモネギ(ガラルのすがた)",
       "nameEn": "farfetchd-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "かくとう"
       ],
@@ -2974,7 +2974,7 @@
       "dexNo": 88,
       "nameJa": "ベトベター(アローラのすがた)",
       "nameEn": "grimer-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "どく",
         "あく"
@@ -3023,7 +3023,7 @@
       "dexNo": 89,
       "nameJa": "ベトベトン(アローラのすがた)",
       "nameEn": "muk-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "どく",
         "あく"
@@ -3166,7 +3166,7 @@
       "dexNo": 94,
       "nameJa": "メガゲンガー",
       "nameEn": "gengar-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "ゴースト",
         "どく"
@@ -3334,7 +3334,7 @@
       "dexNo": 100,
       "nameJa": "ビリリダマ(ヒスイのすがた)",
       "nameEn": "voltorb-hisui",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "でんき",
         "くさ"
@@ -3383,7 +3383,7 @@
       "dexNo": 101,
       "nameJa": "マルマイン(ヒスイのすがた)",
       "nameEn": "electrode-hisui",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "でんき",
         "くさ"
@@ -3456,7 +3456,7 @@
       "dexNo": 103,
       "nameJa": "ナッシー(アローラのすがた)",
       "nameEn": "exeggutor-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "くさ",
         "ドラゴン"
@@ -3528,7 +3528,7 @@
       "dexNo": 105,
       "nameJa": "ガラガラ(アローラのすがた)",
       "nameEn": "marowak-alola",
-      "generation": 1,
+      "generation": 7,
       "types": [
         "ほのお",
         "ゴースト"
@@ -3673,7 +3673,7 @@
       "dexNo": 110,
       "nameJa": "マタドガス(ガラルのすがた)",
       "nameEn": "weezing-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "どく",
         "フェアリー"
@@ -3822,7 +3822,7 @@
       "dexNo": 115,
       "nameJa": "メガガルーラ",
       "nameEn": "kangaskhan-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "ノーマル"
       ],
@@ -3991,7 +3991,7 @@
       "dexNo": 121,
       "nameJa": "メガスターミー",
       "nameEn": "starmie-mega",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "みず",
         "エスパー"
@@ -4039,7 +4039,7 @@
       "dexNo": 122,
       "nameJa": "バリヤード(ガラルのすがた)",
       "nameEn": "mr-mime-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "こおり",
         "エスパー"
@@ -4184,7 +4184,7 @@
       "dexNo": 127,
       "nameJa": "メガカイロス",
       "nameEn": "pinsir-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "むし",
         "ひこう"
@@ -4231,7 +4231,7 @@
       "dexNo": 128,
       "nameJa": "ケンタロス(パルデアのすがた・ウォーター種)",
       "nameEn": "tauros-paldea-aqua-breed",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "かくとう",
         "みず"
@@ -4256,7 +4256,7 @@
       "dexNo": 128,
       "nameJa": "ケンタロス(パルデアのすがた・コンバット種)",
       "nameEn": "tauros-paldea-combat-breed",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "かくとう"
       ],
@@ -4280,7 +4280,7 @@
       "dexNo": 128,
       "nameJa": "ケンタロス(パルデアのすがた・ブレイズ種)",
       "nameEn": "tauros-paldea-blaze-breed",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "かくとう",
         "ほのお"
@@ -4354,7 +4354,7 @@
       "dexNo": 130,
       "nameJa": "メガギャラドス",
       "nameEn": "gyarados-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "みず",
         "あく"
@@ -4673,7 +4673,7 @@
       "dexNo": 142,
       "nameJa": "メガプテラ",
       "nameEn": "aerodactyl-mega",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "いわ",
         "ひこう"
@@ -4744,7 +4744,7 @@
       "dexNo": 144,
       "nameJa": "フリーザー(ガラルのすがた)",
       "nameEn": "articuno-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "エスパー",
         "ひこう"
@@ -4791,7 +4791,7 @@
       "dexNo": 145,
       "nameJa": "サンダー(ガラルのすがた)",
       "nameEn": "zapdos-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "かくとう",
         "ひこう"
@@ -4838,7 +4838,7 @@
       "dexNo": 146,
       "nameJa": "ファイヤー(ガラルのすがた)",
       "nameEn": "moltres-galar",
-      "generation": 1,
+      "generation": 8,
       "types": [
         "あく",
         "ひこう"
@@ -4934,7 +4934,7 @@
       "dexNo": 149,
       "nameJa": "メガカイリュー",
       "nameEn": "dragonite-mega",
-      "generation": 1,
+      "generation": 9,
       "types": [
         "ドラゴン",
         "ひこう"
@@ -4981,7 +4981,7 @@
       "dexNo": 150,
       "nameJa": "メガミュウツーX",
       "nameEn": "mewtwo-mega-x",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "エスパー",
         "かくとう"
@@ -5004,7 +5004,7 @@
       "dexNo": 150,
       "nameJa": "メガミュウツーY",
       "nameEn": "mewtwo-mega-y",
-      "generation": 1,
+      "generation": 6,
       "types": [
         "エスパー"
       ],
@@ -5120,7 +5120,7 @@
       "dexNo": 154,
       "nameJa": "メガメガニウム",
       "nameEn": "meganium-mega",
-      "generation": 2,
+      "generation": 9,
       "types": [
         "くさ",
         "フェアリー"
@@ -5213,7 +5213,7 @@
       "dexNo": 157,
       "nameJa": "バクフーン(ヒスイのすがた)",
       "nameEn": "typhlosion-hisui",
-      "generation": 2,
+      "generation": 8,
       "types": [
         "ほのお",
         "ゴースト"
@@ -5309,7 +5309,7 @@
       "dexNo": 160,
       "nameJa": "メガオーダイル",
       "nameEn": "feraligatr-mega",
-      "generation": 2,
+      "generation": 9,
       "types": [
         "みず",
         "ドラゴン"
@@ -5849,7 +5849,7 @@
       "dexNo": 181,
       "nameJa": "メガデンリュウ",
       "nameEn": "ampharos-mega",
-      "generation": 2,
+      "generation": 6,
       "types": [
         "でんき",
         "ドラゴン"
@@ -6197,7 +6197,7 @@
       "dexNo": 194,
       "nameJa": "ウパー(パルデアのすがた)",
       "nameEn": "wooper-paldea",
-      "generation": 2,
+      "generation": 9,
       "types": [
         "どく",
         "じめん"
@@ -6346,7 +6346,7 @@
       "dexNo": 199,
       "nameJa": "ヤドキング(ガラルのすがた)",
       "nameEn": "slowking-galar",
-      "generation": 2,
+      "generation": 8,
       "types": [
         "どく",
         "エスパー"
@@ -6585,7 +6585,7 @@
       "dexNo": 208,
       "nameJa": "メガハガネール",
       "nameEn": "steelix-mega",
-      "generation": 2,
+      "generation": 6,
       "types": [
         "はがね",
         "じめん"
@@ -6683,7 +6683,7 @@
       "dexNo": 211,
       "nameJa": "ハリーセン(ヒスイのすがた)",
       "nameEn": "qwilfish-hisui",
-      "generation": 2,
+      "generation": 8,
       "types": [
         "あく",
         "どく"
@@ -6733,7 +6733,7 @@
       "dexNo": 212,
       "nameJa": "メガハッサム",
       "nameEn": "scizor-mega",
-      "generation": 2,
+      "generation": 6,
       "types": [
         "むし",
         "はがね"
@@ -6806,7 +6806,7 @@
       "dexNo": 214,
       "nameJa": "メガヘラクロス",
       "nameEn": "heracross-mega",
-      "generation": 2,
+      "generation": 6,
       "types": [
         "むし",
         "かくとう"
@@ -6854,7 +6854,7 @@
       "dexNo": 215,
       "nameJa": "ニューラ(ヒスイのすがた)",
       "nameEn": "sneasel-hisui",
-      "generation": 2,
+      "generation": 8,
       "types": [
         "かくとう",
         "どく"
@@ -7052,7 +7052,7 @@
       "dexNo": 222,
       "nameJa": "サニーゴ(ガラルのすがた)",
       "nameEn": "corsola-galar",
-      "generation": 2,
+      "generation": 8,
       "types": [
         "ゴースト"
       ],
@@ -7202,7 +7202,7 @@
       "dexNo": 227,
       "nameJa": "メガエアームド",
       "nameEn": "skarmory-mega",
-      "generation": 2,
+      "generation": 9,
       "types": [
         "はがね",
         "ひこう"
@@ -7275,7 +7275,7 @@
       "dexNo": 229,
       "nameJa": "メガヘルガー",
       "nameEn": "houndoom-mega",
-      "generation": 2,
+      "generation": 6,
       "types": [
         "あく",
         "ほのお"
@@ -7749,7 +7749,7 @@
       "dexNo": 248,
       "nameJa": "メガバンギラス",
       "nameEn": "tyranitar-mega",
-      "generation": 2,
+      "generation": 6,
       "types": [
         "いわ",
         "あく"
@@ -7915,7 +7915,7 @@
       "dexNo": 254,
       "nameJa": "メガジュカイン",
       "nameEn": "sceptile-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "くさ",
         "ドラゴン"
@@ -8010,7 +8010,7 @@
       "dexNo": 257,
       "nameJa": "メガバシャーモ",
       "nameEn": "blaziken-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ほのお",
         "かくとう"
@@ -8082,7 +8082,7 @@
       "dexNo": 260,
       "nameJa": "メガラグラージ",
       "nameEn": "swampert-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "みず",
         "じめん"
@@ -8203,7 +8203,7 @@
       "dexNo": 263,
       "nameJa": "ジグザグマ(ガラルのすがた)",
       "nameEn": "zigzagoon-galar",
-      "generation": 3,
+      "generation": 8,
       "types": [
         "あく",
         "ノーマル"
@@ -8252,7 +8252,7 @@
       "dexNo": 264,
       "nameJa": "マッスグマ(ガラルのすがた)",
       "nameEn": "linoone-galar",
-      "generation": 3,
+      "generation": 8,
       "types": [
         "あく",
         "ノーマル"
@@ -8725,7 +8725,7 @@
       "dexNo": 282,
       "nameJa": "メガサーナイト",
       "nameEn": "gardevoir-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "エスパー",
         "フェアリー"
@@ -9206,7 +9206,7 @@
       "dexNo": 302,
       "nameJa": "メガヤミラミ",
       "nameEn": "sableye-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "あく",
         "ゴースト"
@@ -9280,7 +9280,7 @@
       "dexNo": 303,
       "nameJa": "メガクチート",
       "nameEn": "mawile-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "はがね",
         "フェアリー"
@@ -9379,7 +9379,7 @@
       "dexNo": 306,
       "nameJa": "メガボスゴドラ",
       "nameEn": "aggron-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "はがね"
       ],
@@ -9449,7 +9449,7 @@
       "dexNo": 308,
       "nameJa": "メガチャーレム",
       "nameEn": "medicham-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "かくとう",
         "エスパー"
@@ -9496,7 +9496,7 @@
       "dexNo": 310,
       "nameJa": "メガライボルト",
       "nameEn": "manectric-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "でんき"
       ],
@@ -9760,7 +9760,7 @@
       "dexNo": 319,
       "nameJa": "メガサメハダー",
       "nameEn": "sharpedo-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "みず",
         "あく"
@@ -9883,7 +9883,7 @@
       "dexNo": 323,
       "nameJa": "メガバクーダ",
       "nameEn": "camerupt-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ほのお",
         "じめん"
@@ -10175,7 +10175,7 @@
       "dexNo": 334,
       "nameJa": "メガチルタリス",
       "nameEn": "altaria-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ドラゴン",
         "フェアリー"
@@ -10748,7 +10748,7 @@
       "dexNo": 354,
       "nameJa": "メガジュペッタ",
       "nameEn": "banette-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ゴースト"
       ],
@@ -10864,7 +10864,7 @@
       "dexNo": 358,
       "nameJa": "メガチリーン",
       "nameEn": "chimecho-mega",
-      "generation": 3,
+      "generation": 9,
       "types": [
         "エスパー",
         "はがね"
@@ -10911,7 +10911,7 @@
       "dexNo": 359,
       "nameJa": "メガアブソル",
       "nameEn": "absol-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "あく"
       ],
@@ -10933,7 +10933,7 @@
       "dexNo": 359,
       "nameJa": "メガアブソルZ",
       "nameEn": "absol-mega-z",
-      "generation": 3,
+      "generation": 9,
       "types": [
         "あく",
         "ゴースト"
@@ -11027,7 +11027,7 @@
       "dexNo": 362,
       "nameJa": "メガオニゴーリ",
       "nameEn": "glalie-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "こおり"
       ],
@@ -11316,7 +11316,7 @@
       "dexNo": 373,
       "nameJa": "メガボーマンダ",
       "nameEn": "salamence-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ドラゴン",
         "ひこう"
@@ -11387,7 +11387,7 @@
       "dexNo": 376,
       "nameJa": "メガメタグロス",
       "nameEn": "metagross-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "はがね",
         "エスパー"
@@ -11503,7 +11503,7 @@
       "dexNo": 380,
       "nameJa": "メガラティアス",
       "nameEn": "latias-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ドラゴン",
         "エスパー"
@@ -11549,7 +11549,7 @@
       "dexNo": 381,
       "nameJa": "メガラティオス",
       "nameEn": "latios-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ドラゴン",
         "エスパー"
@@ -11617,7 +11617,7 @@
       "dexNo": 382,
       "nameJa": "カイオーガ(ゲンシカイキ)",
       "nameEn": "kyogre-primal",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "みず"
       ],
@@ -11661,7 +11661,7 @@
       "dexNo": 383,
       "nameJa": "グラードン(ゲンシカイキ)",
       "nameEn": "groudon-primal",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "じめん",
         "ほのお"
@@ -11684,7 +11684,7 @@
       "dexNo": 384,
       "nameJa": "メガレックウザ",
       "nameEn": "rayquaza-mega",
-      "generation": 3,
+      "generation": 6,
       "types": [
         "ドラゴン",
         "ひこう"
@@ -12133,7 +12133,7 @@
       "dexNo": 398,
       "nameJa": "メガムクホーク",
       "nameEn": "staraptor-mega",
-      "generation": 4,
+      "generation": 9,
       "types": [
         "かくとう",
         "ひこう"
@@ -12931,7 +12931,7 @@
       "dexNo": 428,
       "nameJa": "メガミミロップ",
       "nameEn": "lopunny-mega",
-      "generation": 4,
+      "generation": 6,
       "types": [
         "ノーマル",
         "かくとう"
@@ -13369,7 +13369,7 @@
       "dexNo": 445,
       "nameJa": "メガガブリアス",
       "nameEn": "garchomp-mega",
-      "generation": 4,
+      "generation": 6,
       "types": [
         "ドラゴン",
         "じめん"
@@ -13393,7 +13393,7 @@
       "dexNo": 445,
       "nameJa": "メガガブリアスZ",
       "nameEn": "garchomp-mega-z",
-      "generation": 4,
+      "generation": 9,
       "types": [
         "ドラゴン"
       ],
@@ -13462,7 +13462,7 @@
       "dexNo": 448,
       "nameJa": "メガルカリオ",
       "nameEn": "lucario-mega",
-      "generation": 4,
+      "generation": 6,
       "types": [
         "かくとう",
         "はがね"
@@ -13486,7 +13486,7 @@
       "dexNo": 448,
       "nameJa": "メガルカリオZ",
       "nameEn": "lucario-mega-z",
-      "generation": 4,
+      "generation": 9,
       "types": [
         "かくとう",
         "はがね"
@@ -13802,7 +13802,7 @@
       "dexNo": 460,
       "nameJa": "メガユキノオー",
       "nameEn": "abomasnow-mega",
-      "generation": 4,
+      "generation": 6,
       "types": [
         "くさ",
         "こおり"
@@ -14217,7 +14217,7 @@
       "dexNo": 475,
       "nameJa": "メガエルレイド",
       "nameEn": "gallade-mega",
-      "generation": 4,
+      "generation": 6,
       "types": [
         "エスパー",
         "かくとう"
@@ -14289,7 +14289,7 @@
       "dexNo": 478,
       "nameJa": "メガユキメノコ",
       "nameEn": "froslass-mega",
-      "generation": 4,
+      "generation": 9,
       "types": [
         "こおり",
         "ゴースト"
@@ -14566,7 +14566,7 @@
       "dexNo": 483,
       "nameJa": "ディアルガ(オリジンフォルム)",
       "nameEn": "dialga-origin",
-      "generation": 4,
+      "generation": 8,
       "types": [
         "はがね",
         "ドラゴン"
@@ -14614,7 +14614,7 @@
       "dexNo": 484,
       "nameJa": "パルキア(オリジンフォルム)",
       "nameEn": "palkia-origin",
-      "generation": 4,
+      "generation": 8,
       "types": [
         "みず",
         "ドラゴン"
@@ -14662,7 +14662,7 @@
       "dexNo": 485,
       "nameJa": "メガヒードラン",
       "nameEn": "heatran-mega",
-      "generation": 4,
+      "generation": 9,
       "types": [
         "ほのお",
         "はがね"
@@ -14842,7 +14842,7 @@
       "dexNo": 491,
       "nameJa": "メガダークライ",
       "nameEn": "darkrai-mega",
-      "generation": 4,
+      "generation": 9,
       "types": [
         "あく"
       ],
@@ -15095,7 +15095,7 @@
       "dexNo": 500,
       "nameJa": "メガエンブオー",
       "nameEn": "emboar-mega",
-      "generation": 5,
+      "generation": 9,
       "types": [
         "ほのお",
         "かくとう"
@@ -15187,7 +15187,7 @@
       "dexNo": 503,
       "nameJa": "ダイケンキ(ヒスイのすがた)",
       "nameEn": "samurott-hisui",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "みず",
         "あく"
@@ -15861,7 +15861,7 @@
       "dexNo": 530,
       "nameJa": "メガドリュウズ",
       "nameEn": "excadrill-mega",
-      "generation": 5,
+      "generation": 9,
       "types": [
         "じめん",
         "はがね"
@@ -15908,7 +15908,7 @@
       "dexNo": 531,
       "nameJa": "メガタブンネ",
       "nameEn": "audino-mega",
-      "generation": 5,
+      "generation": 6,
       "types": [
         "ノーマル",
         "フェアリー"
@@ -16275,7 +16275,7 @@
       "dexNo": 545,
       "nameJa": "メガペンドラー",
       "nameEn": "scolipede-mega",
-      "generation": 5,
+      "generation": 9,
       "types": [
         "むし",
         "どく"
@@ -16398,7 +16398,7 @@
       "dexNo": 549,
       "nameJa": "ドレディア(ヒスイのすがた)",
       "nameEn": "lilligant-hisui",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "くさ",
         "かくとう"
@@ -16471,7 +16471,7 @@
       "dexNo": 550,
       "nameJa": "バスラオ(しろすじのすがた)",
       "nameEn": "basculin-white-striped",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "みず"
       ],
@@ -16593,7 +16593,7 @@
       "dexNo": 554,
       "nameJa": "ダルマッカ(ガラルのすがた)",
       "nameEn": "darumaka-galar",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "こおり"
       ],
@@ -16639,7 +16639,7 @@
       "dexNo": 555,
       "nameJa": "ヒヒダルマ(ガラルのすがた・ダルマモード)",
       "nameEn": "darmanitan-galar-zen",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "こおり",
         "ほのお"
@@ -16663,7 +16663,7 @@
       "dexNo": 555,
       "nameJa": "ヒヒダルマ(ガラルのすがた)",
       "nameEn": "darmanitan-galar-standard",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "こおり"
       ],
@@ -16838,7 +16838,7 @@
       "dexNo": 560,
       "nameJa": "メガズルズキン",
       "nameEn": "scrafty-mega",
-      "generation": 5,
+      "generation": 9,
       "types": [
         "あく",
         "かくとう"
@@ -16910,7 +16910,7 @@
       "dexNo": 562,
       "nameJa": "デスマス(ガラルのすがた)",
       "nameEn": "yamask-galar",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "じめん",
         "ゴースト"
@@ -17127,7 +17127,7 @@
       "dexNo": 570,
       "nameJa": "ゾロア(ヒスイのすがた)",
       "nameEn": "zorua-hisui",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "ノーマル",
         "ゴースト"
@@ -17172,7 +17172,7 @@
       "dexNo": 571,
       "nameJa": "ゾロアーク(ヒスイのすがた)",
       "nameEn": "zoroark-hisui",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "ノーマル",
         "ゴースト"
@@ -17994,7 +17994,7 @@
       "dexNo": 604,
       "nameJa": "メガシビルドン",
       "nameEn": "eelektross-mega",
-      "generation": 5,
+      "generation": 9,
       "types": [
         "でんき"
       ],
@@ -18139,7 +18139,7 @@
       "dexNo": 609,
       "nameJa": "メガシャンデラ",
       "nameEn": "chandelure-mega",
-      "generation": 5,
+      "generation": 9,
       "types": [
         "ゴースト",
         "ほのお"
@@ -18381,7 +18381,7 @@
       "dexNo": 618,
       "nameJa": "マッギョ(ガラルのすがた)",
       "nameEn": "stunfisk-galar",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "じめん",
         "はがね"
@@ -18530,7 +18530,7 @@
       "dexNo": 623,
       "nameJa": "メガゴルーグ",
       "nameEn": "golurk-mega",
-      "generation": 5,
+      "generation": 9,
       "types": [
         "じめん",
         "ゴースト"
@@ -18677,7 +18677,7 @@
       "dexNo": 628,
       "nameJa": "ウォーグル(ヒスイのすがた)",
       "nameEn": "braviary-hisui",
-      "generation": 5,
+      "generation": 8,
       "types": [
         "エスパー",
         "ひこう"
@@ -19260,29 +19260,6 @@
       "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/647.png"
     },
     {
-      "key": "keldeo-resolute",
-      "dexNo": 647,
-      "nameJa": "ケルディオ(かくごのすがた)",
-      "nameEn": "keldeo-resolute",
-      "generation": 5,
-      "types": [
-        "みず",
-        "かくとう"
-      ],
-      "abilities": [
-        "せいぎのこころ"
-      ],
-      "baseStatTotal": 580,
-      "heightM": 1.4,
-      "weightKg": 48.5,
-      "genderRate": -1,
-      "evolutionCount": 0,
-      "eggGroups": [
-        "タマゴ未発見"
-      ],
-      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10024.png"
-    },
-    {
       "key": "meloetta-aria",
       "dexNo": 648,
       "nameJa": "メロエッタ",
@@ -19426,7 +19403,7 @@
       "dexNo": 652,
       "nameJa": "メガブリガロン",
       "nameEn": "chesnaught-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "くさ",
         "かくとう"
@@ -19519,7 +19496,7 @@
       "dexNo": 655,
       "nameJa": "メガマフォクシー",
       "nameEn": "delphox-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "ほのお",
         "エスパー"
@@ -19612,7 +19589,7 @@
       "dexNo": 658,
       "nameJa": "ゲッコウガ(サトシゲッコウガ)",
       "nameEn": "greninja-ash",
-      "generation": 6,
+      "generation": 7,
       "types": [
         "みず",
         "あく"
@@ -19635,7 +19612,7 @@
       "dexNo": 658,
       "nameJa": "メガゲッコウガ",
       "nameEn": "greninja-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "みず",
         "あく"
@@ -19901,7 +19878,7 @@
       "dexNo": 668,
       "nameJa": "メガカエンジシ",
       "nameEn": "pyroar-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "ほのお",
         "ノーマル"
@@ -19970,7 +19947,7 @@
       "dexNo": 670,
       "nameJa": "メガフラエッテ",
       "nameEn": "floette-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "フェアリー"
       ],
@@ -20206,7 +20183,7 @@
       "dexNo": 678,
       "nameJa": "メガニャオニクス",
       "nameEn": "meowstic-male-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "エスパー"
       ],
@@ -20228,7 +20205,7 @@
       "dexNo": 678,
       "nameJa": "メガニャオニクス",
       "nameEn": "meowstic-female-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [],
       "abilities": [],
       "baseStatTotal": 0,
@@ -20482,7 +20459,7 @@
       "dexNo": 687,
       "nameJa": "メガカラマネロ",
       "nameEn": "malamar-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "あく",
         "エスパー"
@@ -20556,7 +20533,7 @@
       "dexNo": 689,
       "nameJa": "メガガメノデス",
       "nameEn": "barbaracle-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "いわ",
         "かくとう"
@@ -20631,7 +20608,7 @@
       "dexNo": 691,
       "nameJa": "メガドラミドロ",
       "nameEn": "dragalge-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "どく",
         "ドラゴン"
@@ -20874,7 +20851,7 @@
       "dexNo": 701,
       "nameJa": "メガルチャブル",
       "nameEn": "hawlucha-mega",
-      "generation": 6,
+      "generation": 9,
       "types": [
         "かくとう",
         "ひこう"
@@ -21023,7 +21000,7 @@
       "dexNo": 705,
       "nameJa": "ヌメイル(ヒスイのすがた)",
       "nameEn": "sliggoo-hisui",
-      "generation": 6,
+      "generation": 8,
       "types": [
         "はがね",
         "ドラゴン"
@@ -21072,7 +21049,7 @@
       "dexNo": 706,
       "nameJa": "ヌメルゴン(ヒスイのすがた)",
       "nameEn": "goodra-hisui",
-      "generation": 6,
+      "generation": 8,
       "types": [
         "はがね",
         "ドラゴン"
@@ -21423,7 +21400,7 @@
       "dexNo": 713,
       "nameJa": "クレベース(ヒスイのすがた)",
       "nameEn": "avalugg-hisui",
-      "generation": 6,
+      "generation": 8,
       "types": [
         "こおり",
         "いわ"
@@ -21546,7 +21523,7 @@
       "dexNo": 718,
       "nameJa": "ジガルデ(10%フォルム)",
       "nameEn": "zygarde-10",
-      "generation": 6,
+      "generation": 7,
       "types": [
         "ドラゴン",
         "じめん"
@@ -21592,7 +21569,7 @@
       "dexNo": 718,
       "nameJa": "ジガルデ(パーフェクトフォルム)",
       "nameEn": "zygarde-complete",
-      "generation": 6,
+      "generation": 7,
       "types": [
         "ドラゴン",
         "じめん"
@@ -21802,7 +21779,7 @@
       "dexNo": 724,
       "nameJa": "ジュナイパー(ヒスイのすがた)",
       "nameEn": "decidueye-hisui",
-      "generation": 7,
+      "generation": 8,
       "types": [
         "くさ",
         "かくとう"
@@ -22209,7 +22186,7 @@
       "dexNo": 740,
       "nameJa": "メガケケンカニ",
       "nameEn": "crabominable-mega",
-      "generation": 7,
+      "generation": 9,
       "types": [
         "かくとう",
         "こおり"
@@ -23050,7 +23027,7 @@
       "dexNo": 768,
       "nameJa": "メガグソクムシャ",
       "nameEn": "golisopod-mega",
-      "generation": 7,
+      "generation": 9,
       "types": [
         "むし",
         "はがね"
@@ -23379,7 +23356,7 @@
       "dexNo": 780,
       "nameJa": "メガジジーロン",
       "nameEn": "drampa-mega",
-      "generation": 7,
+      "generation": 9,
       "types": [
         "ノーマル",
         "ドラゴン"
@@ -23983,7 +23960,7 @@
       "dexNo": 801,
       "nameJa": "メガマギアナ",
       "nameEn": "magearna-mega",
-      "generation": 7,
+      "generation": 9,
       "types": [
         "はがね",
         "フェアリー"
@@ -24004,7 +23981,7 @@
       "dexNo": 801,
       "nameJa": "メガマギアナ",
       "nameEn": "magearna-original-mega",
-      "generation": 7,
+      "generation": 9,
       "types": [
         "はがね",
         "フェアリー"
@@ -24161,7 +24138,7 @@
       "dexNo": 807,
       "nameJa": "メガゼラオラ",
       "nameEn": "zeraora-mega",
-      "generation": 7,
+      "generation": 9,
       "types": [
         "でんき"
       ],
@@ -25737,7 +25714,7 @@
       "dexNo": 870,
       "nameJa": "メガタイレーツ",
       "nameEn": "falinks-mega",
-      "generation": 8,
+      "generation": 9,
       "types": [
         "かくとう"
       ],
@@ -26709,7 +26686,7 @@
       "dexNo": 901,
       "nameJa": "ガチグマ(アカツキ)",
       "nameEn": "ursaluna-bloodmoon",
-      "generation": 8,
+      "generation": 9,
       "types": [
         "じめん",
         "ノーマル"

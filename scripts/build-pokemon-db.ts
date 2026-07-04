@@ -54,7 +54,6 @@ const includedFormNames = new Set([
   'kyurem-white',
   'basculin-blue-striped',
   'basculin-white-striped',
-  'keldeo-resolute',
   'meloetta-pirouette',
   'greninja-ash',
   'aegislash-blade',
@@ -133,7 +132,6 @@ const formLabelsJa: Record<string, string> = {
   'basculin-red-striped': 'あかすじのすがた',
   'basculin-blue-striped': 'あおすじのすがた',
   'basculin-white-striped': 'しろすじのすがた',
-  'keldeo-resolute': 'かくごのすがた',
   'meloetta-pirouette': 'ステップフォルム',
   'greninja-ash': 'サトシゲッコウガ',
   'aegislash-blade': 'ブレードフォルム',
@@ -188,6 +186,67 @@ const formLabelsJa: Record<string, string> = {
   'terapagos-terastal': 'テラスタルフォルム',
   'terapagos-stellar': 'ステラフォルム',
 };
+
+const generationOverrides: Record<string, number> = {
+  'dialga-origin': 8,
+  'palkia-origin': 8,
+  'basculin-white-striped': 8,
+  'greninja-ash': 7,
+  'zygarde-10': 7,
+  'zygarde-complete': 7,
+  'ursaluna-bloodmoon': 9,
+};
+
+const generationSixMegaForms = new Set([
+  'venusaur-mega',
+  'charizard-mega-x',
+  'charizard-mega-y',
+  'blastoise-mega',
+  'beedrill-mega',
+  'pidgeot-mega',
+  'alakazam-mega',
+  'slowbro-mega',
+  'gengar-mega',
+  'kangaskhan-mega',
+  'pinsir-mega',
+  'gyarados-mega',
+  'aerodactyl-mega',
+  'mewtwo-mega-x',
+  'mewtwo-mega-y',
+  'ampharos-mega',
+  'steelix-mega',
+  'scizor-mega',
+  'heracross-mega',
+  'houndoom-mega',
+  'tyranitar-mega',
+  'sceptile-mega',
+  'blaziken-mega',
+  'swampert-mega',
+  'gardevoir-mega',
+  'sableye-mega',
+  'mawile-mega',
+  'aggron-mega',
+  'medicham-mega',
+  'manectric-mega',
+  'sharpedo-mega',
+  'camerupt-mega',
+  'altaria-mega',
+  'banette-mega',
+  'absol-mega',
+  'glalie-mega',
+  'salamence-mega',
+  'metagross-mega',
+  'latias-mega',
+  'latios-mega',
+  'rayquaza-mega',
+  'lopunny-mega',
+  'garchomp-mega',
+  'lucario-mega',
+  'abomasnow-mega',
+  'gallade-mega',
+  'audino-mega',
+  'diancie-mega',
+]);
 
 interface NamedResource {
   name: string;
@@ -277,6 +336,16 @@ function generationNumber(resourceName: string): number {
     ix: 9,
   };
   return map[roman] ?? 0;
+}
+
+function formGeneration(species: SpeciesApiResponse, pokemonName: string): number {
+  if (generationOverrides[pokemonName]) return generationOverrides[pokemonName];
+  if (generationSixMegaForms.has(pokemonName) || pokemonName.endsWith('-primal')) return 6;
+  if (pokemonName.includes('-mega')) return 9;
+  if (pokemonName.includes('-alola')) return 7;
+  if (pokemonName.includes('-galar') || pokemonName.includes('-hisui')) return 8;
+  if (pokemonName.includes('-paldea')) return 9;
+  return generationNumber(species.generation.name);
 }
 
 function pickJapaneseName(species: SpeciesApiResponse, fallback: string): string {
@@ -386,7 +455,7 @@ async function buildEntry(species: SpeciesApiResponse, pokemonResource: NamedRes
     dexNo: species.id,
     nameJa: displayJapaneseName(species, pokemon.name),
     nameEn: pokemon.name,
-    generation: generationNumber(species.generation.name),
+    generation: formGeneration(species, pokemon.name),
     types: types.slice(0, 2),
     abilities: abilities.slice(0, 3),
     baseStatTotal: pokemon.stats.reduce((sum, item) => sum + item.base_stat, 0),
