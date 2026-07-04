@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T14:03:58.143Z",
+  "generatedAt": "2026-07-04T14:11:23.018Z",
   "source": "PokeAPI",
   "pokemon": [
     {
@@ -20177,46 +20177,6 @@
         "陸上"
       ],
       "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10025.png"
-    },
-    {
-      "key": "meowstic-male-mega",
-      "dexNo": 678,
-      "nameJa": "メガニャオニクス",
-      "nameEn": "meowstic-male-mega",
-      "generation": 9,
-      "types": [
-        "エスパー"
-      ],
-      "abilities": [
-        "トレース"
-      ],
-      "baseStatTotal": 566,
-      "heightM": 0.8,
-      "weightKg": 10.1,
-      "genderRate": 4,
-      "evolutionCount": 1,
-      "eggGroups": [
-        "陸上"
-      ],
-      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10314.png"
-    },
-    {
-      "key": "meowstic-female-mega",
-      "dexNo": 678,
-      "nameJa": "メガニャオニクス",
-      "nameEn": "meowstic-female-mega",
-      "generation": 9,
-      "types": [],
-      "abilities": [],
-      "baseStatTotal": 0,
-      "heightM": 0.8,
-      "weightKg": 10.1,
-      "genderRate": 4,
-      "evolutionCount": 1,
-      "eggGroups": [
-        "陸上"
-      ],
-      "spriteUrl": ""
     },
     {
       "key": "honedge",

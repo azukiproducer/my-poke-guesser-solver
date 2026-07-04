@@ -372,6 +372,8 @@ function isIncludedVariety(variety: SpeciesApiResponse['varieties'][number]): bo
   if (
     name.startsWith('pikachu-') ||
     name === 'eevee-starter' ||
+    name === 'meowstic-male-mega' ||
+    name === 'meowstic-female-mega' ||
     name === 'zygarde-mega' ||
     name === 'zarude-dada' ||
     name.startsWith('koraidon-') ||
