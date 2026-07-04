@@ -4,6 +4,7 @@ import type { GuessTrial, PokemonEntry } from '../lib/types';
 
 const pokemon: PokemonEntry[] = [
   {
+    key: 'bulbasaur',
     dexNo: 1,
     nameJa: 'フシギダネ',
     nameEn: 'bulbasaur',
@@ -19,6 +20,7 @@ const pokemon: PokemonEntry[] = [
     spriteUrl: '',
   },
   {
+    key: 'charmander',
     dexNo: 4,
     nameJa: 'ヒトカゲ',
     nameEn: 'charmander',
@@ -34,6 +36,7 @@ const pokemon: PokemonEntry[] = [
     spriteUrl: '',
   },
   {
+    key: 'pikachu',
     dexNo: 25,
     nameJa: 'ピカチュウ',
     nameEn: 'pikachu',
@@ -53,7 +56,7 @@ const pokemon: PokemonEntry[] = [
 function trial(overrides: Partial<GuessTrial>): GuessTrial {
   return {
     id: 'test',
-    pokemonDexNo: 1,
+    pokemonKey: 'bulbasaur',
     createdAt: '2026-07-04T00:00:00.000Z',
     numericHints: {
       generation: 'any',
@@ -104,11 +107,11 @@ describe('candidate filtering', () => {
   it('applies multiple trials with AND semantics', () => {
     const result = filterCandidates(pokemon, [
       trial({
-        pokemonDexNo: 1,
+        pokemonKey: 'bulbasaur',
         numericHints: { ...trial({}).numericHints, baseStatTotal: 'higher' },
       }),
       trial({
-        pokemonDexNo: 25,
+        pokemonKey: 'pikachu',
         setHints: { ...trial({}).setHints, types: 'exact' },
       }),
     ]);

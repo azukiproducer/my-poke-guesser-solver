@@ -44,11 +44,11 @@ export function compareSetHint(candidateValues: readonly string[], inputValues: 
 }
 
 export function filterCandidates(pokemon: readonly PokemonEntry[], trials: readonly GuessTrial[]): PokemonEntry[] {
-  const byDexNo = new Map(pokemon.map((entry) => [entry.dexNo, entry]));
+  const byKey = new Map(pokemon.map((entry) => [entry.key, entry]));
 
   return pokemon.filter((candidate) =>
     trials.every((trial) => {
-      const guessed = byDexNo.get(trial.pokemonDexNo);
+      const guessed = byKey.get(trial.pokemonKey);
       if (!guessed) return true;
 
       const numericMatches = (Object.entries(trial.numericHints) as [NumericField, NumericHint][]).every(([field, hint]) =>
@@ -79,7 +79,10 @@ export function sortCandidates(candidates: readonly PokemonEntry[], sort: SortSt
       return valueA.localeCompare(valueB, 'ja') * direction;
     }
 
-    return (Number(valueA) - Number(valueB)) * direction;
+    const numericComparison = Number(valueA) - Number(valueB);
+    if (numericComparison !== 0) return numericComparison * direction;
+
+    return a.nameJa.localeCompare(b.nameJa, 'ja');
   });
 }
 

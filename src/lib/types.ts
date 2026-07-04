@@ -3,6 +3,7 @@ export type SetHint = 'exact' | 'partial' | 'none' | 'any';
 export type HintResult = NumericHint | SetHint;
 
 export interface PokemonEntry {
+  key: string;
   dexNo: number;
   nameJa: string;
   nameEn: string;
@@ -36,7 +37,7 @@ export type SetField = 'types' | 'abilities' | 'eggGroups';
 
 export interface GuessTrial {
   id: string;
-  pokemonDexNo: number;
+  pokemonKey: string;
   numericHints: Record<NumericField, NumericHint>;
   setHints: Record<SetField, SetHint>;
   createdAt: string;

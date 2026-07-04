@@ -67,9 +67,9 @@ function findPokemonByQuery(query: string, pokemon: readonly PokemonEntry[]): Po
   });
 }
 
-function emptyTrial(pokemonDexNo = 1): Omit<GuessTrial, 'id' | 'createdAt'> {
+function emptyTrial(pokemonKey = ''): Omit<GuessTrial, 'id' | 'createdAt'> {
   return {
-    pokemonDexNo,
+    pokemonKey,
     numericHints: { ...defaultNumericHints },
     setHints: { ...defaultSetHints },
   };
@@ -94,7 +94,7 @@ export default function App() {
       .then((data) => {
         setDatabase(data);
         const firstPokemon = data.pokemon[0];
-        setDraft(emptyTrial(firstPokemon?.dexNo ?? 1));
+        setDraft(emptyTrial(firstPokemon?.key ?? ''));
         setPokemonQuery(firstPokemon ? pokemonOptionLabel(firstPokemon) : '');
       })
       .catch((error: unknown) => {
@@ -104,7 +104,7 @@ export default function App() {
 
   const pokemon = database?.pokemon ?? [];
   const inputPokemon = findPokemonByQuery(pokemonQuery, pokemon);
-  const selectedPokemon = inputPokemon ?? pokemon.find((entry) => entry.dexNo === draft.pokemonDexNo);
+  const selectedPokemon = inputPokemon ?? pokemon.find((entry) => entry.key === draft.pokemonKey);
   const filtered = useMemo(() => filterCandidates(pokemon, trials), [pokemon, trials]);
   const sortedCandidates = useMemo(() => sortCandidates(filtered, sort), [filtered, sort]);
 
@@ -112,14 +112,14 @@ export default function App() {
     if (!inputPokemon) return;
     const nextTrial = {
       ...draft,
-      pokemonDexNo: inputPokemon.dexNo,
+      pokemonKey: inputPokemon.key,
       numericHints: { ...draft.numericHints },
       setHints: { ...draft.setHints },
       createdAt: new Date().toISOString(),
     };
 
     setTrials((current) => {
-      const existingTrial = current.find((trial) => trial.pokemonDexNo === inputPokemon.dexNo);
+      const existingTrial = current.find((trial) => trial.pokemonKey === inputPokemon.key);
       if (!existingTrial) {
         return [
           ...current,
@@ -131,7 +131,7 @@ export default function App() {
       }
 
       return current.map((trial) =>
-        trial.pokemonDexNo === inputPokemon.dexNo
+        trial.pokemonKey === inputPokemon.key
           ? {
               ...nextTrial,
               id: trial.id,
@@ -150,14 +150,14 @@ export default function App() {
 
   function pickPokemon(entry: PokemonEntry) {
     setPokemonQuery(pokemonOptionLabel(entry));
-    setDraft((current) => ({ ...current, pokemonDexNo: entry.dexNo }));
+    setDraft((current) => ({ ...current, pokemonKey: entry.key }));
   }
 
   function resetSolver() {
     const firstPokemon = pokemon[0];
     setTrials([]);
     setSort({ key: 'dexNo', direction: 'asc' });
-    setDraft(emptyTrial(firstPokemon?.dexNo ?? 1));
+    setDraft(emptyTrial(firstPokemon?.key ?? ''));
     setPokemonQuery(firstPokemon ? pokemonOptionLabel(firstPokemon) : '');
   }
 
@@ -197,14 +197,14 @@ export default function App() {
                   setPokemonQuery(nextQuery);
 
                   if (matchedPokemon) {
-                    setDraft((current) => ({ ...current, pokemonDexNo: matchedPokemon.dexNo }));
+                    setDraft((current) => ({ ...current, pokemonKey: matchedPokemon.key }));
                   }
                 }}
                 placeholder="名前または図鑑番号で検索"
               />
               <datalist id="pokemon-options">
                 {pokemon.map((entry) => (
-                  <option key={entry.dexNo} value={pokemonOptionLabel(entry)} />
+                  <option key={entry.key} value={pokemonOptionLabel(entry)} />
                 ))}
               </datalist>
             </label>
@@ -272,11 +272,11 @@ export default function App() {
             ) : (
               <div className="trialList">
                 {trials.map((trial) => {
-                  const guessed = pokemon.find((entry) => entry.dexNo === trial.pokemonDexNo);
+                  const guessed = pokemon.find((entry) => entry.key === trial.pokemonKey);
                   return (
                     <article className="trial" key={trial.id}>
                       <div className="trialTitle">
-                        <strong>{guessed?.nameJa ?? `No.${trial.pokemonDexNo}`}</strong>
+                        <strong>{guessed?.nameJa ?? trial.pokemonKey}</strong>
                         <button onClick={() => setTrials((current) => current.filter((item) => item.id !== trial.id))}>削除</button>
                       </div>
                       <div className="chips">
@@ -405,7 +405,7 @@ function PokemonTable({ candidates, sort, onPickPokemon, onSort }: PokemonTableP
         </thead>
         <tbody>
           {candidates.map((entry) => (
-            <tr key={entry.dexNo} onDoubleClick={() => onPickPokemon(entry)} title="ダブルクリックで入力ポケモンに設定">
+            <tr key={entry.key} onDoubleClick={() => onPickPokemon(entry)} title="ダブルクリックで入力ポケモンに設定">
               <td><img className="sprite" src={entry.spriteUrl} alt="" loading="lazy" /></td>
               <td>No.{entry.dexNo}</td>
               <td className="nameCell"><strong>{entry.nameJa}</strong></td>

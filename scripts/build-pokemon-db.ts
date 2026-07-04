@@ -28,6 +28,167 @@ const eggGroupNamesJa: Record<string, string> = {
   'no-eggs': 'タマゴ未発見',
 };
 
+const includedFormNames = new Set([
+  'rotom-heat',
+  'rotom-wash',
+  'rotom-frost',
+  'rotom-fan',
+  'rotom-mow',
+  'castform-sunny',
+  'castform-rainy',
+  'castform-snowy',
+  'deoxys-attack',
+  'deoxys-defense',
+  'deoxys-speed',
+  'wormadam-sandy',
+  'wormadam-trash',
+  'giratina-origin',
+  'dialga-origin',
+  'palkia-origin',
+  'shaymin-sky',
+  'darmanitan-zen',
+  'tornadus-therian',
+  'thundurus-therian',
+  'landorus-therian',
+  'kyurem-black',
+  'kyurem-white',
+  'basculin-blue-striped',
+  'basculin-white-striped',
+  'keldeo-resolute',
+  'meloetta-pirouette',
+  'greninja-ash',
+  'aegislash-blade',
+  'zygarde-10',
+  'zygarde-complete',
+  'hoopa-unbound',
+  'meowstic-female',
+  'pumpkaboo-small',
+  'pumpkaboo-large',
+  'pumpkaboo-super',
+  'gourgeist-small',
+  'gourgeist-large',
+  'gourgeist-super',
+  'oricorio-pom-pom',
+  'oricorio-pau',
+  'oricorio-sensu',
+  'wishiwashi-school',
+  'lycanroc-midnight',
+  'lycanroc-dusk',
+  'minior-red',
+  'necrozma-dusk',
+  'necrozma-dawn',
+  'necrozma-ultra',
+  'magearna-original',
+  'toxtricity-low-key',
+  'eiscue-noice',
+  'indeedee-female',
+  'morpeko-hangry',
+  'eternatus-eternamax',
+  'zacian-crowned',
+  'zamazenta-crowned',
+  'ursaluna-bloodmoon',
+  'enamorus-therian',
+  'urshifu-rapid-strike',
+  'calyrex-ice',
+  'calyrex-shadow',
+  'basculegion-female',
+  'oinkologne-female',
+  'palafin-hero',
+  'dudunsparce-three-segment',
+  'gimmighoul-roaming',
+  'ogerpon-wellspring-mask',
+  'ogerpon-hearthflame-mask',
+  'ogerpon-cornerstone-mask',
+  'terapagos-terastal',
+  'terapagos-stellar',
+]);
+
+const formLabelsJa: Record<string, string> = {
+  'rotom-heat': 'ヒートロトム',
+  'rotom-wash': 'ウォッシュロトム',
+  'rotom-frost': 'フロストロトム',
+  'rotom-fan': 'スピンロトム',
+  'rotom-mow': 'カットロトム',
+  'castform-sunny': 'たいようのすがた',
+  'castform-rainy': 'あまみずのすがた',
+  'castform-snowy': 'ゆきぐものすがた',
+  'deoxys-attack': 'アタックフォルム',
+  'deoxys-defense': 'ディフェンスフォルム',
+  'deoxys-speed': 'スピードフォルム',
+  'wormadam-sandy': 'すなちのミノ',
+  'wormadam-trash': 'ゴミのミノ',
+  'giratina-origin': 'オリジンフォルム',
+  'dialga-origin': 'オリジンフォルム',
+  'palkia-origin': 'オリジンフォルム',
+  'shaymin-sky': 'スカイフォルム',
+  'darmanitan-zen': 'ダルマモード',
+  'darmanitan-galar-standard': 'ガラルのすがた',
+  'darmanitan-galar-zen': 'ガラルのすがた・ダルマモード',
+  'tornadus-therian': 'れいじゅうフォルム',
+  'thundurus-therian': 'れいじゅうフォルム',
+  'landorus-therian': 'れいじゅうフォルム',
+  'enamorus-therian': 'れいじゅうフォルム',
+  'kyurem-black': 'ブラックキュレム',
+  'kyurem-white': 'ホワイトキュレム',
+  'basculin-red-striped': 'あかすじのすがた',
+  'basculin-blue-striped': 'あおすじのすがた',
+  'basculin-white-striped': 'しろすじのすがた',
+  'keldeo-resolute': 'かくごのすがた',
+  'meloetta-pirouette': 'ステップフォルム',
+  'greninja-ash': 'サトシゲッコウガ',
+  'aegislash-blade': 'ブレードフォルム',
+  'zygarde-50': '50%フォルム',
+  'zygarde-10': '10%フォルム',
+  'zygarde-complete': 'パーフェクトフォルム',
+  'hoopa-unbound': 'ときはなたれしすがた',
+  'meowstic-male': 'オスのすがた',
+  'meowstic-female': 'メスのすがた',
+  'pumpkaboo-average': 'ふつうのサイズ',
+  'pumpkaboo-small': 'ちいさいサイズ',
+  'pumpkaboo-large': 'おおきいサイズ',
+  'pumpkaboo-super': 'とくだいサイズ',
+  'gourgeist-average': 'ふつうのサイズ',
+  'gourgeist-small': 'ちいさいサイズ',
+  'gourgeist-large': 'おおきいサイズ',
+  'gourgeist-super': 'とくだいサイズ',
+  'oricorio-pom-pom': 'ぱちぱちスタイル',
+  'oricorio-pau': 'ふらふらスタイル',
+  'oricorio-sensu': 'まいまいスタイル',
+  'wishiwashi-school': 'むれたすがた',
+  'lycanroc-midnight': 'まよなかのすがた',
+  'lycanroc-dusk': 'たそがれのすがた',
+  'minior-red-meteor': 'りゅうせいのすがた',
+  'minior-red': 'コアのすがた',
+  'necrozma-dusk': 'たそがれのたてがみ',
+  'necrozma-dawn': 'あかつきのつばさ',
+  'necrozma-ultra': 'ウルトラネクロズマ',
+  'magearna-original': '500年前の色',
+  'toxtricity-low-key': 'ローなすがた',
+  'eiscue-noice': 'ナイスフェイス',
+  'indeedee-male': 'オスのすがた',
+  'indeedee-female': 'メスのすがた',
+  'morpeko-hangry': 'はらぺこもよう',
+  'eternatus-eternamax': 'ムゲンダイマックス',
+  'zacian-crowned': 'けんのおう',
+  'zamazenta-crowned': 'たてのおう',
+  'ursaluna-bloodmoon': 'アカツキ',
+  'urshifu-rapid-strike': 'れんげきのかた',
+  'calyrex-ice': 'はくばじょうのすがた',
+  'calyrex-shadow': 'こくばじょうのすがた',
+  'basculegion-female': 'メスのすがた',
+  'oinkologne-male': 'オスのすがた',
+  'oinkologne-female': 'メスのすがた',
+  'palafin-hero': 'マイティフォルム',
+  'dudunsparce-three-segment': 'みつふしフォルム',
+  gimmighoul: 'はこフォルム',
+  'gimmighoul-roaming': 'とほフォルム',
+  'ogerpon-wellspring-mask': 'いどのめん',
+  'ogerpon-hearthflame-mask': 'かまどのめん',
+  'ogerpon-cornerstone-mask': 'いしずえのめん',
+  'terapagos-terastal': 'テラスタルフォルム',
+  'terapagos-stellar': 'ステラフォルム',
+};
+
 interface NamedResource {
   name: string;
   url: string;
@@ -135,6 +296,58 @@ async function localizedResourceName(resource: NamedResource): Promise<string> {
   return pickLocalizedName(data.names, resource.name);
 }
 
+function isIncludedVariety(variety: SpeciesApiResponse['varieties'][number]): boolean {
+  const name = variety.pokemon.name;
+  if (variety.is_default) return true;
+  if (name.includes('-gmax') || name.includes('-totem') || name.includes('-cap')) return false;
+  if (
+    name.startsWith('pikachu-') ||
+    name === 'eevee-starter' ||
+    name === 'zygarde-mega' ||
+    name === 'zarude-dada' ||
+    name.startsWith('koraidon-') ||
+    name.startsWith('miraidon-')
+  ) {
+    return false;
+  }
+
+  return (
+    name.includes('-mega') ||
+    name.endsWith('-primal') ||
+    includedFormNames.has(name) ||
+    /-(alola|galar|hisui)(-|$)/.test(name) ||
+    /-paldea(-|$)/.test(name)
+  );
+}
+
+function formLabelJa(pokemonName: string): string {
+  if (formLabelsJa[pokemonName]) return formLabelsJa[pokemonName];
+  if (pokemonName.endsWith('-primal')) return 'ゲンシカイキ';
+  if (pokemonName.endsWith('-mega-x')) return 'メガX';
+  if (pokemonName.endsWith('-mega-y')) return 'メガY';
+  if (pokemonName.endsWith('-mega-z')) return 'メガZ';
+  if (pokemonName.includes('-mega')) return 'メガ';
+  if (pokemonName.includes('-alola')) return 'アローラのすがた';
+  if (pokemonName.includes('-galar')) return 'ガラルのすがた';
+  if (pokemonName.includes('-hisui')) return 'ヒスイのすがた';
+  if (pokemonName.includes('-paldea-combat-breed')) return 'パルデアのすがた・コンバット種';
+  if (pokemonName.includes('-paldea-blaze-breed')) return 'パルデアのすがた・ブレイズ種';
+  if (pokemonName.includes('-paldea-aqua-breed')) return 'パルデアのすがた・ウォーター種';
+  if (pokemonName.includes('-paldea')) return 'パルデアのすがた';
+  return '';
+}
+
+function displayJapaneseName(species: SpeciesApiResponse, pokemonName: string): string {
+  const speciesName = pickJapaneseName(species, pokemonName);
+  if (pokemonName.endsWith('-mega-x')) return `メガ${speciesName}X`;
+  if (pokemonName.endsWith('-mega-y')) return `メガ${speciesName}Y`;
+  if (pokemonName.endsWith('-mega-z')) return `メガ${speciesName}Z`;
+  if (pokemonName.includes('-mega')) return `メガ${speciesName}`;
+
+  const label = formLabelJa(pokemonName);
+  return label ? `${speciesName}(${label})` : speciesName;
+}
+
 function evolutionDepth(node: EvolutionNode, speciesName: string, depth = 0): number | null {
   if (node.species.name === speciesName) return depth;
 
@@ -153,12 +366,8 @@ async function resolveMaxDexNo(): Promise<number> {
   return data.count;
 }
 
-async function buildEntry(id: number): Promise<PokemonEntry> {
-  const species = await fetchJson<SpeciesApiResponse>(`${apiBase}/pokemon-species/${id}`);
-  const defaultVariety = species.varieties.find((variety) => variety.is_default);
-  const pokemonUrl = defaultVariety?.pokemon.url ?? `${apiBase}/pokemon/${id}`;
-  const pokemon = await fetchJson<PokemonApiResponse>(pokemonUrl);
-  const chain = await fetchJson<EvolutionChainResponse>(species.evolution_chain.url);
+async function buildEntry(species: SpeciesApiResponse, pokemonResource: NamedResource, chain: EvolutionChainResponse): Promise<PokemonEntry> {
+  const pokemon = await fetchJson<PokemonApiResponse>(pokemonResource.url);
 
   const types = await Promise.all(
     pokemon.types
@@ -173,8 +382,9 @@ async function buildEntry(id: number): Promise<PokemonEntry> {
   const eggGroups = species.egg_groups.map((item) => eggGroupNamesJa[item.name] ?? item.name);
 
   return {
+    key: pokemon.name,
     dexNo: species.id,
-    nameJa: pickJapaneseName(species, pokemon.name),
+    nameJa: displayJapaneseName(species, pokemon.name),
     nameEn: pokemon.name,
     generation: generationNumber(species.generation.name),
     types: types.slice(0, 2),
@@ -195,9 +405,15 @@ async function main(): Promise<void> {
 
   for (let id = 1; id <= maxDexNo; id += 1) {
     try {
-      const entry = await buildEntry(id);
-      entries.push(entry);
-      console.log(`(${id}/${maxDexNo}) ${entry.nameEn}`);
+      const species = await fetchJson<SpeciesApiResponse>(`${apiBase}/pokemon-species/${id}`);
+      const chain = await fetchJson<EvolutionChainResponse>(species.evolution_chain.url);
+      const varieties = species.varieties.filter(isIncludedVariety);
+
+      for (const variety of varieties) {
+        const entry = await buildEntry(species, variety.pokemon, chain);
+        entries.push(entry);
+        console.log(`(${id}/${maxDexNo}) ${entry.nameEn}`);
+      }
     } catch (error) {
       console.warn(`Skip ${id}:`, error instanceof Error ? error.message : error);
     }
@@ -206,7 +422,7 @@ async function main(): Promise<void> {
   const database: PokemonDatabase = {
     generatedAt: new Date().toISOString(),
     source: 'PokeAPI',
-    pokemon: entries.sort((a, b) => a.dexNo - b.dexNo),
+    pokemon: entries.sort((a, b) => a.dexNo - b.dexNo || a.nameJa.localeCompare(b.nameJa, 'ja')),
   };
 
   await mkdir(path.dirname(outputPath), { recursive: true });
