@@ -1,0 +1,301 @@
+:root {
+  color: #17202a;
+  background: #f4f7f9;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.page {
+  width: min(1480px, 100%);
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.appHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 4px;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+}
+
+.appHeader p,
+.muted {
+  color: #65717e;
+}
+
+.meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.meta span,
+.chips span {
+  border: 1px solid #d9e1e8;
+  border-radius: 999px;
+  background: #fff;
+  padding: 5px 10px;
+  font-size: 0.88rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.side {
+  display: grid;
+  gap: 18px;
+}
+
+.card {
+  border: 1px solid #dbe4ea;
+  border-radius: 8px;
+  background: #fff;
+  padding: 18px;
+  box-shadow: 0 12px 32px rgba(30, 45, 60, 0.06);
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.field span,
+.field legend {
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.hintGroup {
+  border: 0;
+  padding: 0;
+}
+
+.hintGroup legend {
+  padding: 0;
+}
+
+input,
+select {
+  width: 100%;
+  border: 1px solid #cbd6df;
+  border-radius: 6px;
+  background: #fff;
+  color: #17202a;
+  min-height: 40px;
+  padding: 8px 10px;
+}
+
+.hintGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 12px;
+}
+
+.segmented {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.segmented button {
+  min-height: 36px;
+  border: 1px solid #cbd6df;
+  border-radius: 6px;
+  background: #fff;
+  color: #344252;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 6px 8px;
+}
+
+.segmented button.active {
+  border-color: #2454d6;
+  background: #eaf0ff;
+  color: #193fa8;
+  box-shadow: inset 0 0 0 1px #2454d6;
+}
+
+.selected {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #e0e8ee;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px 0 14px;
+  background: #f8fbfd;
+}
+
+.selected img {
+  width: 56px;
+  height: 56px;
+  image-rendering: pixelated;
+}
+
+.selected span {
+  display: block;
+  color: #65717e;
+  font-size: 0.9rem;
+}
+
+.primary {
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  min-height: 44px;
+  background: #2454d6;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.trialList {
+  display: grid;
+  gap: 12px;
+}
+
+.trial {
+  border: 1px solid #e0e8ee;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.trialTitle,
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.trialTitle button {
+  border: 1px solid #d1dce5;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.candidates {
+  min-width: 0;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 1100px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e4ebf0;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f8fbfd;
+  font-size: 0.9rem;
+}
+
+.sortButton {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 800;
+  padding: 0;
+}
+
+.sprite {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.error {
+  border-color: #f0bcc5;
+  color: #9f2439;
+}
+
+@media (max-width: 980px) {
+  .page {
+    padding: 16px;
+  }
+
+  .appHeader,
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .meta {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .hintGrid {
+    grid-template-columns: 1fr;
+  }
+}

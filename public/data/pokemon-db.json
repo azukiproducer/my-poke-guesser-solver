@@ -1,0 +1,3528 @@
+{
+  "generatedAt": "2026-07-04T07:56:42.090Z",
+  "source": "PokeAPI",
+  "pokemon": [
+    {
+      "dexNo": 1,
+      "nameJa": "フシギダネ",
+      "nameEn": "bulbasaur",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "しんりょく",
+        "ようりょくそ"
+      ],
+      "baseStatTotal": 318,
+      "heightM": 0.7,
+      "weightKg": 6.9,
+      "genderRate": 1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    },
+    {
+      "dexNo": 2,
+      "nameJa": "フシギソウ",
+      "nameEn": "ivysaur",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "しんりょく",
+        "ようりょくそ"
+      ],
+      "baseStatTotal": 405,
+      "heightM": 1,
+      "weightKg": 13,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣",
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+    },
+    {
+      "dexNo": 3,
+      "nameJa": "フシギバナ",
+      "nameEn": "venusaur",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "しんりょく",
+        "ようりょくそ"
+      ],
+      "baseStatTotal": 525,
+      "heightM": 2,
+      "weightKg": 100,
+      "genderRate": 1,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "怪獣",
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+    },
+    {
+      "dexNo": 4,
+      "nameJa": "ヒトカゲ",
+      "nameEn": "charmander",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "もうか",
+        "サンパワー"
+      ],
+      "baseStatTotal": 309,
+      "heightM": 0.6,
+      "weightKg": 8.5,
+      "genderRate": 1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+    },
+    {
+      "dexNo": 5,
+      "nameJa": "リザード",
+      "nameEn": "charmeleon",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "もうか",
+        "サンパワー"
+      ],
+      "baseStatTotal": 405,
+      "heightM": 1.1,
+      "weightKg": 19,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+    },
+    {
+      "dexNo": 6,
+      "nameJa": "リザードン",
+      "nameEn": "charizard",
+      "generation": 1,
+      "types": [
+        "ほのお",
+        "ひこう"
+      ],
+      "abilities": [
+        "もうか",
+        "サンパワー"
+      ],
+      "baseStatTotal": 534,
+      "heightM": 1.7,
+      "weightKg": 90.5,
+      "genderRate": 1,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "怪獣",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    },
+    {
+      "dexNo": 7,
+      "nameJa": "ゼニガメ",
+      "nameEn": "squirtle",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "げきりゅう",
+        "あめうけざら"
+      ],
+      "baseStatTotal": 314,
+      "heightM": 0.5,
+      "weightKg": 9,
+      "genderRate": 1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+    },
+    {
+      "dexNo": 8,
+      "nameJa": "カメール",
+      "nameEn": "wartortle",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "げきりゅう",
+        "あめうけざら"
+      ],
+      "baseStatTotal": 405,
+      "heightM": 1,
+      "weightKg": 22.5,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣",
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+    },
+    {
+      "dexNo": 9,
+      "nameJa": "カメックス",
+      "nameEn": "blastoise",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "げきりゅう",
+        "あめうけざら"
+      ],
+      "baseStatTotal": 530,
+      "heightM": 1.6,
+      "weightKg": 85.5,
+      "genderRate": 1,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "怪獣",
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+    },
+    {
+      "dexNo": 10,
+      "nameJa": "キャタピー",
+      "nameEn": "caterpie",
+      "generation": 1,
+      "types": [
+        "むし"
+      ],
+      "abilities": [
+        "りんぷん",
+        "にげあし"
+      ],
+      "baseStatTotal": 195,
+      "heightM": 0.3,
+      "weightKg": 2.9,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+    },
+    {
+      "dexNo": 11,
+      "nameJa": "トランセル",
+      "nameEn": "metapod",
+      "generation": 1,
+      "types": [
+        "むし"
+      ],
+      "abilities": [
+        "だっぴ"
+      ],
+      "baseStatTotal": 205,
+      "heightM": 0.7,
+      "weightKg": 9.9,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+    },
+    {
+      "dexNo": 12,
+      "nameJa": "バタフリー",
+      "nameEn": "butterfree",
+      "generation": 1,
+      "types": [
+        "むし",
+        "ひこう"
+      ],
+      "abilities": [
+        "ふくがん",
+        "いろめがね"
+      ],
+      "baseStatTotal": 395,
+      "heightM": 1.1,
+      "weightKg": 32,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+    },
+    {
+      "dexNo": 13,
+      "nameJa": "ビードル",
+      "nameEn": "weedle",
+      "generation": 1,
+      "types": [
+        "むし",
+        "どく"
+      ],
+      "abilities": [
+        "りんぷん",
+        "にげあし"
+      ],
+      "baseStatTotal": 195,
+      "heightM": 0.3,
+      "weightKg": 3.2,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+    },
+    {
+      "dexNo": 14,
+      "nameJa": "コクーン",
+      "nameEn": "kakuna",
+      "generation": 1,
+      "types": [
+        "むし",
+        "どく"
+      ],
+      "abilities": [
+        "だっぴ"
+      ],
+      "baseStatTotal": 205,
+      "heightM": 0.6,
+      "weightKg": 10,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+    },
+    {
+      "dexNo": 15,
+      "nameJa": "スピアー",
+      "nameEn": "beedrill",
+      "generation": 1,
+      "types": [
+        "むし",
+        "どく"
+      ],
+      "abilities": [
+        "むしのしらせ",
+        "スナイパー"
+      ],
+      "baseStatTotal": 395,
+      "heightM": 1,
+      "weightKg": 29.5,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+    },
+    {
+      "dexNo": 16,
+      "nameJa": "ポッポ",
+      "nameEn": "pidgey",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "するどいめ",
+        "ちどりあし",
+        "はとむね"
+      ],
+      "baseStatTotal": 251,
+      "heightM": 0.3,
+      "weightKg": 1.8,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+    },
+    {
+      "dexNo": 17,
+      "nameJa": "ピジョン",
+      "nameEn": "pidgeotto",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "するどいめ",
+        "ちどりあし",
+        "はとむね"
+      ],
+      "baseStatTotal": 349,
+      "heightM": 1.1,
+      "weightKg": 30,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+    },
+    {
+      "dexNo": 18,
+      "nameJa": "ピジョット",
+      "nameEn": "pidgeot",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "するどいめ",
+        "ちどりあし",
+        "はとむね"
+      ],
+      "baseStatTotal": 479,
+      "heightM": 1.5,
+      "weightKg": 39.5,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+    },
+    {
+      "dexNo": 19,
+      "nameJa": "コラッタ",
+      "nameEn": "rattata",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "にげあし",
+        "こんじょう",
+        "はりきり"
+      ],
+      "baseStatTotal": 253,
+      "heightM": 0.3,
+      "weightKg": 3.5,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+    },
+    {
+      "dexNo": 20,
+      "nameJa": "ラッタ",
+      "nameEn": "raticate",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "にげあし",
+        "こんじょう",
+        "はりきり"
+      ],
+      "baseStatTotal": 413,
+      "heightM": 0.7,
+      "weightKg": 18.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+    },
+    {
+      "dexNo": 21,
+      "nameJa": "オニスズメ",
+      "nameEn": "spearow",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "するどいめ",
+        "スナイパー"
+      ],
+      "baseStatTotal": 262,
+      "heightM": 0.3,
+      "weightKg": 2,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+    },
+    {
+      "dexNo": 22,
+      "nameJa": "オニドリル",
+      "nameEn": "fearow",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "するどいめ",
+        "スナイパー"
+      ],
+      "baseStatTotal": 442,
+      "heightM": 1.2,
+      "weightKg": 38,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+    },
+    {
+      "dexNo": 23,
+      "nameJa": "アーボ",
+      "nameEn": "ekans",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "いかく",
+        "だっぴ",
+        "きんちょうかん"
+      ],
+      "baseStatTotal": 288,
+      "heightM": 2,
+      "weightKg": 6.9,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+    },
+    {
+      "dexNo": 24,
+      "nameJa": "アーボック",
+      "nameEn": "arbok",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "いかく",
+        "だっぴ",
+        "きんちょうかん"
+      ],
+      "baseStatTotal": 448,
+      "heightM": 3.5,
+      "weightKg": 65,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+    },
+    {
+      "dexNo": 25,
+      "nameJa": "ピカチュウ",
+      "nameEn": "pikachu",
+      "generation": 1,
+      "types": [
+        "でんき"
+      ],
+      "abilities": [
+        "せいでんき",
+        "ひらいしん"
+      ],
+      "baseStatTotal": 320,
+      "heightM": 0.4,
+      "weightKg": 6,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上",
+        "妖精"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    },
+    {
+      "dexNo": 26,
+      "nameJa": "ライチュウ",
+      "nameEn": "raichu",
+      "generation": 1,
+      "types": [
+        "でんき"
+      ],
+      "abilities": [
+        "せいでんき",
+        "ひらいしん"
+      ],
+      "baseStatTotal": 485,
+      "heightM": 0.8,
+      "weightKg": 30,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "陸上",
+        "妖精"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+    },
+    {
+      "dexNo": 27,
+      "nameJa": "サンド",
+      "nameEn": "sandshrew",
+      "generation": 1,
+      "types": [
+        "じめん"
+      ],
+      "abilities": [
+        "すながくれ",
+        "すなかき"
+      ],
+      "baseStatTotal": 300,
+      "heightM": 0.6,
+      "weightKg": 12,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+    },
+    {
+      "dexNo": 28,
+      "nameJa": "サンドパン",
+      "nameEn": "sandslash",
+      "generation": 1,
+      "types": [
+        "じめん"
+      ],
+      "abilities": [
+        "すながくれ",
+        "すなかき"
+      ],
+      "baseStatTotal": 450,
+      "heightM": 1,
+      "weightKg": 29.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png"
+    },
+    {
+      "dexNo": 29,
+      "nameJa": "ニドラン♀",
+      "nameEn": "nidoran-f",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "どくのトゲ",
+        "とうそうしん",
+        "はりきり"
+      ],
+      "baseStatTotal": 275,
+      "heightM": 0.4,
+      "weightKg": 7,
+      "genderRate": 8,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png"
+    },
+    {
+      "dexNo": 30,
+      "nameJa": "ニドリーナ",
+      "nameEn": "nidorina",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "どくのトゲ",
+        "とうそうしん",
+        "はりきり"
+      ],
+      "baseStatTotal": 365,
+      "heightM": 0.8,
+      "weightKg": 20,
+      "genderRate": 8,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "タマゴ未発見"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png"
+    },
+    {
+      "dexNo": 31,
+      "nameJa": "ニドクイン",
+      "nameEn": "nidoqueen",
+      "generation": 1,
+      "types": [
+        "どく",
+        "じめん"
+      ],
+      "abilities": [
+        "どくのトゲ",
+        "とうそうしん",
+        "ちからずく"
+      ],
+      "baseStatTotal": 505,
+      "heightM": 1.3,
+      "weightKg": 60,
+      "genderRate": 8,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "タマゴ未発見"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+    },
+    {
+      "dexNo": 32,
+      "nameJa": "ニドラン♂",
+      "nameEn": "nidoran-m",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "どくのトゲ",
+        "とうそうしん",
+        "はりきり"
+      ],
+      "baseStatTotal": 273,
+      "heightM": 0.5,
+      "weightKg": 9,
+      "genderRate": 0,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+    },
+    {
+      "dexNo": 33,
+      "nameJa": "ニドリーノ",
+      "nameEn": "nidorino",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "どくのトゲ",
+        "とうそうしん",
+        "はりきり"
+      ],
+      "baseStatTotal": 365,
+      "heightM": 0.9,
+      "weightKg": 19.5,
+      "genderRate": 0,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+    },
+    {
+      "dexNo": 34,
+      "nameJa": "ニドキング",
+      "nameEn": "nidoking",
+      "generation": 1,
+      "types": [
+        "どく",
+        "じめん"
+      ],
+      "abilities": [
+        "どくのトゲ",
+        "とうそうしん",
+        "ちからずく"
+      ],
+      "baseStatTotal": 505,
+      "heightM": 1.4,
+      "weightKg": 62,
+      "genderRate": 0,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "怪獣",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+    },
+    {
+      "dexNo": 35,
+      "nameJa": "ピッピ",
+      "nameEn": "clefairy",
+      "generation": 1,
+      "types": [
+        "フェアリー"
+      ],
+      "abilities": [
+        "メロメロボディ",
+        "マジックガード",
+        "フレンドガード"
+      ],
+      "baseStatTotal": 323,
+      "heightM": 0.6,
+      "weightKg": 7.5,
+      "genderRate": 6,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "妖精"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+    },
+    {
+      "dexNo": 36,
+      "nameJa": "ピクシー",
+      "nameEn": "clefable",
+      "generation": 1,
+      "types": [
+        "フェアリー"
+      ],
+      "abilities": [
+        "メロメロボディ",
+        "マジックガード",
+        "てんねん"
+      ],
+      "baseStatTotal": 483,
+      "heightM": 1.3,
+      "weightKg": 40,
+      "genderRate": 6,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "妖精"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+    },
+    {
+      "dexNo": 37,
+      "nameJa": "ロコン",
+      "nameEn": "vulpix",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "もらいび",
+        "ひでり"
+      ],
+      "baseStatTotal": 299,
+      "heightM": 0.6,
+      "weightKg": 9.9,
+      "genderRate": 6,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+    },
+    {
+      "dexNo": 38,
+      "nameJa": "キュウコン",
+      "nameEn": "ninetales",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "もらいび",
+        "ひでり"
+      ],
+      "baseStatTotal": 505,
+      "heightM": 1.1,
+      "weightKg": 19.9,
+      "genderRate": 6,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+    },
+    {
+      "dexNo": 39,
+      "nameJa": "プリン",
+      "nameEn": "jigglypuff",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "フェアリー"
+      ],
+      "abilities": [
+        "メロメロボディ",
+        "かちき",
+        "フレンドガード"
+      ],
+      "baseStatTotal": 270,
+      "heightM": 0.5,
+      "weightKg": 5.5,
+      "genderRate": 6,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "妖精"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+    },
+    {
+      "dexNo": 40,
+      "nameJa": "プクリン",
+      "nameEn": "wigglytuff",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "フェアリー"
+      ],
+      "abilities": [
+        "メロメロボディ",
+        "かちき",
+        "おみとおし"
+      ],
+      "baseStatTotal": 435,
+      "heightM": 1,
+      "weightKg": 12,
+      "genderRate": 6,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "妖精"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+    },
+    {
+      "dexNo": 41,
+      "nameJa": "ズバット",
+      "nameEn": "zubat",
+      "generation": 1,
+      "types": [
+        "どく",
+        "ひこう"
+      ],
+      "abilities": [
+        "せいしんりょく",
+        "すりぬけ"
+      ],
+      "baseStatTotal": 245,
+      "heightM": 0.8,
+      "weightKg": 7.5,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png"
+    },
+    {
+      "dexNo": 42,
+      "nameJa": "ゴルバット",
+      "nameEn": "golbat",
+      "generation": 1,
+      "types": [
+        "どく",
+        "ひこう"
+      ],
+      "abilities": [
+        "せいしんりょく",
+        "すりぬけ"
+      ],
+      "baseStatTotal": 455,
+      "heightM": 1.6,
+      "weightKg": 55,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png"
+    },
+    {
+      "dexNo": 43,
+      "nameJa": "ナゾノクサ",
+      "nameEn": "oddish",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "にげあし"
+      ],
+      "baseStatTotal": 320,
+      "heightM": 0.5,
+      "weightKg": 5.4,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png"
+    },
+    {
+      "dexNo": 44,
+      "nameJa": "クサイハナ",
+      "nameEn": "gloom",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "あくしゅう"
+      ],
+      "baseStatTotal": 395,
+      "heightM": 0.8,
+      "weightKg": 8.6,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+    },
+    {
+      "dexNo": 45,
+      "nameJa": "ラフレシア",
+      "nameEn": "vileplume",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "ほうし"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 1.2,
+      "weightKg": 18.6,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png"
+    },
+    {
+      "dexNo": 46,
+      "nameJa": "パラス",
+      "nameEn": "paras",
+      "generation": 1,
+      "types": [
+        "むし",
+        "くさ"
+      ],
+      "abilities": [
+        "ほうし",
+        "かんそうはだ",
+        "しめりけ"
+      ],
+      "baseStatTotal": 285,
+      "heightM": 0.3,
+      "weightKg": 5.4,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "虫",
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+    },
+    {
+      "dexNo": 47,
+      "nameJa": "パラセクト",
+      "nameEn": "parasect",
+      "generation": 1,
+      "types": [
+        "むし",
+        "くさ"
+      ],
+      "abilities": [
+        "ほうし",
+        "かんそうはだ",
+        "しめりけ"
+      ],
+      "baseStatTotal": 405,
+      "heightM": 1,
+      "weightKg": 29.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "虫",
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+    },
+    {
+      "dexNo": 48,
+      "nameJa": "コンパン",
+      "nameEn": "venonat",
+      "generation": 1,
+      "types": [
+        "むし",
+        "どく"
+      ],
+      "abilities": [
+        "ふくがん",
+        "いろめがね",
+        "にげあし"
+      ],
+      "baseStatTotal": 305,
+      "heightM": 1,
+      "weightKg": 30,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+    },
+    {
+      "dexNo": 49,
+      "nameJa": "モルフォン",
+      "nameEn": "venomoth",
+      "generation": 1,
+      "types": [
+        "むし",
+        "どく"
+      ],
+      "abilities": [
+        "りんぷん",
+        "いろめがね",
+        "ミラクルスキン"
+      ],
+      "baseStatTotal": 450,
+      "heightM": 1.5,
+      "weightKg": 12.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png"
+    },
+    {
+      "dexNo": 50,
+      "nameJa": "ディグダ",
+      "nameEn": "diglett",
+      "generation": 1,
+      "types": [
+        "じめん"
+      ],
+      "abilities": [
+        "すながくれ",
+        "ありじごく",
+        "すなのちから"
+      ],
+      "baseStatTotal": 265,
+      "heightM": 0.2,
+      "weightKg": 0.8,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png"
+    },
+    {
+      "dexNo": 51,
+      "nameJa": "ダグトリオ",
+      "nameEn": "dugtrio",
+      "generation": 1,
+      "types": [
+        "じめん"
+      ],
+      "abilities": [
+        "すながくれ",
+        "ありじごく",
+        "すなのちから"
+      ],
+      "baseStatTotal": 425,
+      "heightM": 0.7,
+      "weightKg": 33.3,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png"
+    },
+    {
+      "dexNo": 52,
+      "nameJa": "ニャース",
+      "nameEn": "meowth",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "ものひろい",
+        "テクニシャン",
+        "きんちょうかん"
+      ],
+      "baseStatTotal": 290,
+      "heightM": 0.4,
+      "weightKg": 4.2,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+    },
+    {
+      "dexNo": 53,
+      "nameJa": "ペルシアン",
+      "nameEn": "persian",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "じゅうなん",
+        "テクニシャン",
+        "きんちょうかん"
+      ],
+      "baseStatTotal": 440,
+      "heightM": 1,
+      "weightKg": 32,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png"
+    },
+    {
+      "dexNo": 54,
+      "nameJa": "コダック",
+      "nameEn": "psyduck",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "しめりけ",
+        "ノーてんき",
+        "すいすい"
+      ],
+      "baseStatTotal": 320,
+      "heightM": 0.8,
+      "weightKg": 19.6,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中1",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+    },
+    {
+      "dexNo": 55,
+      "nameJa": "ゴルダック",
+      "nameEn": "golduck",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "しめりけ",
+        "ノーてんき",
+        "すいすい"
+      ],
+      "baseStatTotal": 500,
+      "heightM": 1.7,
+      "weightKg": 76.6,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中1",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png"
+    },
+    {
+      "dexNo": 56,
+      "nameJa": "マンキー",
+      "nameEn": "mankey",
+      "generation": 1,
+      "types": [
+        "かくとう"
+      ],
+      "abilities": [
+        "やるき",
+        "いかりのつぼ",
+        "まけんき"
+      ],
+      "baseStatTotal": 305,
+      "heightM": 0.5,
+      "weightKg": 28,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png"
+    },
+    {
+      "dexNo": 57,
+      "nameJa": "オコリザル",
+      "nameEn": "primeape",
+      "generation": 1,
+      "types": [
+        "かくとう"
+      ],
+      "abilities": [
+        "やるき",
+        "いかりのつぼ",
+        "まけんき"
+      ],
+      "baseStatTotal": 455,
+      "heightM": 1,
+      "weightKg": 32,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png"
+    },
+    {
+      "dexNo": 58,
+      "nameJa": "ガーディ",
+      "nameEn": "growlithe",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "いかく",
+        "もらいび",
+        "せいぎのこころ"
+      ],
+      "baseStatTotal": 350,
+      "heightM": 0.7,
+      "weightKg": 19,
+      "genderRate": 2,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png"
+    },
+    {
+      "dexNo": 59,
+      "nameJa": "ウインディ",
+      "nameEn": "arcanine",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "いかく",
+        "もらいび",
+        "せいぎのこころ"
+      ],
+      "baseStatTotal": 555,
+      "heightM": 1.9,
+      "weightKg": 155,
+      "genderRate": 2,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png"
+    },
+    {
+      "dexNo": 60,
+      "nameJa": "ニョロモ",
+      "nameEn": "poliwag",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "ちょすい",
+        "しめりけ",
+        "すいすい"
+      ],
+      "baseStatTotal": 300,
+      "heightM": 0.6,
+      "weightKg": 12.4,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png"
+    },
+    {
+      "dexNo": 61,
+      "nameJa": "ニョロゾ",
+      "nameEn": "poliwhirl",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "ちょすい",
+        "しめりけ",
+        "すいすい"
+      ],
+      "baseStatTotal": 385,
+      "heightM": 1,
+      "weightKg": 20,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png"
+    },
+    {
+      "dexNo": 62,
+      "nameJa": "ニョロボン",
+      "nameEn": "poliwrath",
+      "generation": 1,
+      "types": [
+        "みず",
+        "かくとう"
+      ],
+      "abilities": [
+        "ちょすい",
+        "しめりけ",
+        "すいすい"
+      ],
+      "baseStatTotal": 510,
+      "heightM": 1.3,
+      "weightKg": 54,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png"
+    },
+    {
+      "dexNo": 63,
+      "nameJa": "ケーシィ",
+      "nameEn": "abra",
+      "generation": 1,
+      "types": [
+        "エスパー"
+      ],
+      "abilities": [
+        "シンクロ",
+        "せいしんりょく",
+        "マジックガード"
+      ],
+      "baseStatTotal": 310,
+      "heightM": 0.9,
+      "weightKg": 19.5,
+      "genderRate": 2,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+    },
+    {
+      "dexNo": 64,
+      "nameJa": "ユンゲラー",
+      "nameEn": "kadabra",
+      "generation": 1,
+      "types": [
+        "エスパー"
+      ],
+      "abilities": [
+        "シンクロ",
+        "せいしんりょく",
+        "マジックガード"
+      ],
+      "baseStatTotal": 400,
+      "heightM": 1.3,
+      "weightKg": 56.5,
+      "genderRate": 2,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png"
+    },
+    {
+      "dexNo": 65,
+      "nameJa": "フーディン",
+      "nameEn": "alakazam",
+      "generation": 1,
+      "types": [
+        "エスパー"
+      ],
+      "abilities": [
+        "シンクロ",
+        "せいしんりょく",
+        "マジックガード"
+      ],
+      "baseStatTotal": 500,
+      "heightM": 1.5,
+      "weightKg": 48,
+      "genderRate": 2,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+    },
+    {
+      "dexNo": 66,
+      "nameJa": "ワンリキー",
+      "nameEn": "machop",
+      "generation": 1,
+      "types": [
+        "かくとう"
+      ],
+      "abilities": [
+        "こんじょう",
+        "ノーガード",
+        "ふくつのこころ"
+      ],
+      "baseStatTotal": 305,
+      "heightM": 0.8,
+      "weightKg": 19.5,
+      "genderRate": 2,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+    },
+    {
+      "dexNo": 67,
+      "nameJa": "ゴーリキー",
+      "nameEn": "machoke",
+      "generation": 1,
+      "types": [
+        "かくとう"
+      ],
+      "abilities": [
+        "こんじょう",
+        "ノーガード",
+        "ふくつのこころ"
+      ],
+      "baseStatTotal": 405,
+      "heightM": 1.5,
+      "weightKg": 70.5,
+      "genderRate": 2,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png"
+    },
+    {
+      "dexNo": 68,
+      "nameJa": "カイリキー",
+      "nameEn": "machamp",
+      "generation": 1,
+      "types": [
+        "かくとう"
+      ],
+      "abilities": [
+        "こんじょう",
+        "ノーガード",
+        "ふくつのこころ"
+      ],
+      "baseStatTotal": 505,
+      "heightM": 1.6,
+      "weightKg": 130,
+      "genderRate": 2,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+    },
+    {
+      "dexNo": 69,
+      "nameJa": "マダツボミ",
+      "nameEn": "bellsprout",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "くいしんぼう"
+      ],
+      "baseStatTotal": 300,
+      "heightM": 0.7,
+      "weightKg": 4,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png"
+    },
+    {
+      "dexNo": 70,
+      "nameJa": "ウツドン",
+      "nameEn": "weepinbell",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "くいしんぼう"
+      ],
+      "baseStatTotal": 390,
+      "heightM": 1,
+      "weightKg": 6.4,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png"
+    },
+    {
+      "dexNo": 71,
+      "nameJa": "ウツボット",
+      "nameEn": "victreebel",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "どく"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "くいしんぼう"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 1.7,
+      "weightKg": 15.5,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+    },
+    {
+      "dexNo": 72,
+      "nameJa": "メノクラゲ",
+      "nameEn": "tentacool",
+      "generation": 1,
+      "types": [
+        "みず",
+        "どく"
+      ],
+      "abilities": [
+        "クリアボディ",
+        "ヘドロえき",
+        "あめうけざら"
+      ],
+      "baseStatTotal": 335,
+      "heightM": 0.9,
+      "weightKg": 45.5,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png"
+    },
+    {
+      "dexNo": 73,
+      "nameJa": "ドククラゲ",
+      "nameEn": "tentacruel",
+      "generation": 1,
+      "types": [
+        "みず",
+        "どく"
+      ],
+      "abilities": [
+        "クリアボディ",
+        "ヘドロえき",
+        "あめうけざら"
+      ],
+      "baseStatTotal": 515,
+      "heightM": 1.6,
+      "weightKg": 55,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png"
+    },
+    {
+      "dexNo": 74,
+      "nameJa": "イシツブテ",
+      "nameEn": "geodude",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "じめん"
+      ],
+      "abilities": [
+        "いしあたま",
+        "がんじょう",
+        "すながくれ"
+      ],
+      "baseStatTotal": 300,
+      "heightM": 0.4,
+      "weightKg": 20,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png"
+    },
+    {
+      "dexNo": 75,
+      "nameJa": "ゴローン",
+      "nameEn": "graveler",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "じめん"
+      ],
+      "abilities": [
+        "いしあたま",
+        "がんじょう",
+        "すながくれ"
+      ],
+      "baseStatTotal": 390,
+      "heightM": 1,
+      "weightKg": 105,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png"
+    },
+    {
+      "dexNo": 76,
+      "nameJa": "ゴローニャ",
+      "nameEn": "golem",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "じめん"
+      ],
+      "abilities": [
+        "いしあたま",
+        "がんじょう",
+        "すながくれ"
+      ],
+      "baseStatTotal": 495,
+      "heightM": 1.4,
+      "weightKg": 300,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png"
+    },
+    {
+      "dexNo": 77,
+      "nameJa": "ポニータ",
+      "nameEn": "ponyta",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "にげあし",
+        "もらいび",
+        "ほのおのからだ"
+      ],
+      "baseStatTotal": 410,
+      "heightM": 1,
+      "weightKg": 30,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png"
+    },
+    {
+      "dexNo": 78,
+      "nameJa": "ギャロップ",
+      "nameEn": "rapidash",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "にげあし",
+        "もらいび",
+        "ほのおのからだ"
+      ],
+      "baseStatTotal": 500,
+      "heightM": 1.7,
+      "weightKg": 95,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png"
+    },
+    {
+      "dexNo": 79,
+      "nameJa": "ヤドン",
+      "nameEn": "slowpoke",
+      "generation": 1,
+      "types": [
+        "みず",
+        "エスパー"
+      ],
+      "abilities": [
+        "どんかん",
+        "マイペース",
+        "さいせいりょく"
+      ],
+      "baseStatTotal": 315,
+      "heightM": 1.2,
+      "weightKg": 36,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png"
+    },
+    {
+      "dexNo": 80,
+      "nameJa": "ヤドラン",
+      "nameEn": "slowbro",
+      "generation": 1,
+      "types": [
+        "みず",
+        "エスパー"
+      ],
+      "abilities": [
+        "どんかん",
+        "マイペース",
+        "さいせいりょく"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 1.6,
+      "weightKg": 78.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣",
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png"
+    },
+    {
+      "dexNo": 81,
+      "nameJa": "コイル",
+      "nameEn": "magnemite",
+      "generation": 1,
+      "types": [
+        "でんき",
+        "はがね"
+      ],
+      "abilities": [
+        "じりょく",
+        "がんじょう",
+        "アナライズ"
+      ],
+      "baseStatTotal": 325,
+      "heightM": 0.3,
+      "weightKg": 6,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png"
+    },
+    {
+      "dexNo": 82,
+      "nameJa": "レアコイル",
+      "nameEn": "magneton",
+      "generation": 1,
+      "types": [
+        "でんき",
+        "はがね"
+      ],
+      "abilities": [
+        "じりょく",
+        "がんじょう",
+        "アナライズ"
+      ],
+      "baseStatTotal": 465,
+      "heightM": 1,
+      "weightKg": 60,
+      "genderRate": -1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png"
+    },
+    {
+      "dexNo": 83,
+      "nameJa": "カモネギ",
+      "nameEn": "farfetchd",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "するどいめ",
+        "せいしんりょく",
+        "まけんき"
+      ],
+      "baseStatTotal": 377,
+      "heightM": 0.8,
+      "weightKg": 15,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "飛行",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png"
+    },
+    {
+      "dexNo": 84,
+      "nameJa": "ドードー",
+      "nameEn": "doduo",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "にげあし",
+        "はやおき",
+        "ちどりあし"
+      ],
+      "baseStatTotal": 310,
+      "heightM": 1.4,
+      "weightKg": 39.2,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png"
+    },
+    {
+      "dexNo": 85,
+      "nameJa": "ドードリオ",
+      "nameEn": "dodrio",
+      "generation": 1,
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "abilities": [
+        "にげあし",
+        "はやおき",
+        "ちどりあし"
+      ],
+      "baseStatTotal": 470,
+      "heightM": 1.8,
+      "weightKg": 85.2,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png"
+    },
+    {
+      "dexNo": 86,
+      "nameJa": "パウワウ",
+      "nameEn": "seel",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "あついしぼう",
+        "うるおいボディ",
+        "アイスボディ"
+      ],
+      "baseStatTotal": 325,
+      "heightM": 1.1,
+      "weightKg": 90,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中1",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png"
+    },
+    {
+      "dexNo": 87,
+      "nameJa": "ジュゴン",
+      "nameEn": "dewgong",
+      "generation": 1,
+      "types": [
+        "みず",
+        "こおり"
+      ],
+      "abilities": [
+        "あついしぼう",
+        "うるおいボディ",
+        "アイスボディ"
+      ],
+      "baseStatTotal": 475,
+      "heightM": 1.7,
+      "weightKg": 120,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中1",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png"
+    },
+    {
+      "dexNo": 88,
+      "nameJa": "ベトベター",
+      "nameEn": "grimer",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "あくしゅう",
+        "ねんちゃく",
+        "どくしゅ"
+      ],
+      "baseStatTotal": 325,
+      "heightM": 0.9,
+      "weightKg": 30,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "indeterminate"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png"
+    },
+    {
+      "dexNo": 89,
+      "nameJa": "ベトベトン",
+      "nameEn": "muk",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "あくしゅう",
+        "ねんちゃく",
+        "どくしゅ"
+      ],
+      "baseStatTotal": 500,
+      "heightM": 1.2,
+      "weightKg": 30,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "indeterminate"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png"
+    },
+    {
+      "dexNo": 90,
+      "nameJa": "シェルダー",
+      "nameEn": "shellder",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "シェルアーマー",
+        "スキルリンク",
+        "ぼうじん"
+      ],
+      "baseStatTotal": 305,
+      "heightM": 0.3,
+      "weightKg": 4,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png"
+    },
+    {
+      "dexNo": 91,
+      "nameJa": "パルシェン",
+      "nameEn": "cloyster",
+      "generation": 1,
+      "types": [
+        "みず",
+        "こおり"
+      ],
+      "abilities": [
+        "シェルアーマー",
+        "スキルリンク",
+        "ぼうじん"
+      ],
+      "baseStatTotal": 525,
+      "heightM": 1.5,
+      "weightKg": 132.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png"
+    },
+    {
+      "dexNo": 92,
+      "nameJa": "ゴース",
+      "nameEn": "gastly",
+      "generation": 1,
+      "types": [
+        "ゴースト",
+        "どく"
+      ],
+      "abilities": [
+        "ふゆう"
+      ],
+      "baseStatTotal": 310,
+      "heightM": 1.3,
+      "weightKg": 0.1,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "indeterminate"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+    },
+    {
+      "dexNo": 93,
+      "nameJa": "ゴースト",
+      "nameEn": "haunter",
+      "generation": 1,
+      "types": [
+        "ゴースト",
+        "どく"
+      ],
+      "abilities": [
+        "ふゆう"
+      ],
+      "baseStatTotal": 405,
+      "heightM": 1.6,
+      "weightKg": 0.1,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "indeterminate"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
+    },
+    {
+      "dexNo": 94,
+      "nameJa": "ゲンガー",
+      "nameEn": "gengar",
+      "generation": 1,
+      "types": [
+        "ゴースト",
+        "どく"
+      ],
+      "abilities": [
+        "のろわれボディ"
+      ],
+      "baseStatTotal": 500,
+      "heightM": 1.5,
+      "weightKg": 40.5,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "indeterminate"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+    },
+    {
+      "dexNo": 95,
+      "nameJa": "イワーク",
+      "nameEn": "onix",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "じめん"
+      ],
+      "abilities": [
+        "いしあたま",
+        "がんじょう",
+        "くだけるよろい"
+      ],
+      "baseStatTotal": 385,
+      "heightM": 8.8,
+      "weightKg": 210,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+    },
+    {
+      "dexNo": 96,
+      "nameJa": "スリープ",
+      "nameEn": "drowzee",
+      "generation": 1,
+      "types": [
+        "エスパー"
+      ],
+      "abilities": [
+        "ふみん",
+        "よちむ",
+        "せいしんりょく"
+      ],
+      "baseStatTotal": 328,
+      "heightM": 1,
+      "weightKg": 32.4,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png"
+    },
+    {
+      "dexNo": 97,
+      "nameJa": "スリーパー",
+      "nameEn": "hypno",
+      "generation": 1,
+      "types": [
+        "エスパー"
+      ],
+      "abilities": [
+        "ふみん",
+        "よちむ",
+        "せいしんりょく"
+      ],
+      "baseStatTotal": 483,
+      "heightM": 1.6,
+      "weightKg": 75.6,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png"
+    },
+    {
+      "dexNo": 98,
+      "nameJa": "クラブ",
+      "nameEn": "krabby",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "かいりきバサミ",
+        "シェルアーマー",
+        "ちからずく"
+      ],
+      "baseStatTotal": 325,
+      "heightM": 0.4,
+      "weightKg": 6.5,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png"
+    },
+    {
+      "dexNo": 99,
+      "nameJa": "キングラー",
+      "nameEn": "kingler",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "かいりきバサミ",
+        "シェルアーマー",
+        "ちからずく"
+      ],
+      "baseStatTotal": 475,
+      "heightM": 1.3,
+      "weightKg": 60,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png"
+    },
+    {
+      "dexNo": 100,
+      "nameJa": "ビリリダマ",
+      "nameEn": "voltorb",
+      "generation": 1,
+      "types": [
+        "でんき"
+      ],
+      "abilities": [
+        "ぼうおん",
+        "せいでんき",
+        "ゆうばく"
+      ],
+      "baseStatTotal": 330,
+      "heightM": 0.5,
+      "weightKg": 10.4,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png"
+    },
+    {
+      "dexNo": 101,
+      "nameJa": "マルマイン",
+      "nameEn": "electrode",
+      "generation": 1,
+      "types": [
+        "でんき"
+      ],
+      "abilities": [
+        "ぼうおん",
+        "せいでんき",
+        "ゆうばく"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 1.2,
+      "weightKg": 66.6,
+      "genderRate": -1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png"
+    },
+    {
+      "dexNo": 102,
+      "nameJa": "タマタマ",
+      "nameEn": "exeggcute",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "エスパー"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "しゅうかく"
+      ],
+      "baseStatTotal": 325,
+      "heightM": 0.4,
+      "weightKg": 2.5,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png"
+    },
+    {
+      "dexNo": 103,
+      "nameJa": "ナッシー",
+      "nameEn": "exeggutor",
+      "generation": 1,
+      "types": [
+        "くさ",
+        "エスパー"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "しゅうかく"
+      ],
+      "baseStatTotal": 530,
+      "heightM": 2,
+      "weightKg": 120,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png"
+    },
+    {
+      "dexNo": 104,
+      "nameJa": "カラカラ",
+      "nameEn": "cubone",
+      "generation": 1,
+      "types": [
+        "じめん"
+      ],
+      "abilities": [
+        "いしあたま",
+        "ひらいしん",
+        "カブトアーマー"
+      ],
+      "baseStatTotal": 320,
+      "heightM": 0.4,
+      "weightKg": 6.5,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png"
+    },
+    {
+      "dexNo": 105,
+      "nameJa": "ガラガラ",
+      "nameEn": "marowak",
+      "generation": 1,
+      "types": [
+        "じめん"
+      ],
+      "abilities": [
+        "いしあたま",
+        "ひらいしん",
+        "カブトアーマー"
+      ],
+      "baseStatTotal": 425,
+      "heightM": 1,
+      "weightKg": 45,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png"
+    },
+    {
+      "dexNo": 106,
+      "nameJa": "サワムラー",
+      "nameEn": "hitmonlee",
+      "generation": 1,
+      "types": [
+        "かくとう"
+      ],
+      "abilities": [
+        "じゅうなん",
+        "すてみ",
+        "かるわざ"
+      ],
+      "baseStatTotal": 455,
+      "heightM": 1.5,
+      "weightKg": 49.8,
+      "genderRate": 0,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png"
+    },
+    {
+      "dexNo": 107,
+      "nameJa": "エビワラー",
+      "nameEn": "hitmonchan",
+      "generation": 1,
+      "types": [
+        "かくとう"
+      ],
+      "abilities": [
+        "するどいめ",
+        "てつのこぶし",
+        "せいしんりょく"
+      ],
+      "baseStatTotal": 455,
+      "heightM": 1.4,
+      "weightKg": 50.2,
+      "genderRate": 0,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png"
+    },
+    {
+      "dexNo": 108,
+      "nameJa": "ベロリンガ",
+      "nameEn": "lickitung",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "マイペース",
+        "どんかん",
+        "ノーてんき"
+      ],
+      "baseStatTotal": 385,
+      "heightM": 1.2,
+      "weightKg": 65.5,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+    },
+    {
+      "dexNo": 109,
+      "nameJa": "ドガース",
+      "nameEn": "koffing",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "ふゆう",
+        "かがくへんかガス",
+        "あくしゅう"
+      ],
+      "baseStatTotal": 340,
+      "heightM": 0.6,
+      "weightKg": 1,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "indeterminate"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png"
+    },
+    {
+      "dexNo": 110,
+      "nameJa": "マタドガス",
+      "nameEn": "weezing",
+      "generation": 1,
+      "types": [
+        "どく"
+      ],
+      "abilities": [
+        "ふゆう",
+        "かがくへんかガス",
+        "あくしゅう"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 1.2,
+      "weightKg": 9.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "indeterminate"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png"
+    },
+    {
+      "dexNo": 111,
+      "nameJa": "サイホーン",
+      "nameEn": "rhyhorn",
+      "generation": 1,
+      "types": [
+        "じめん",
+        "いわ"
+      ],
+      "abilities": [
+        "ひらいしん",
+        "いしあたま",
+        "すてみ"
+      ],
+      "baseStatTotal": 345,
+      "heightM": 1,
+      "weightKg": 115,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png"
+    },
+    {
+      "dexNo": 112,
+      "nameJa": "サイドン",
+      "nameEn": "rhydon",
+      "generation": 1,
+      "types": [
+        "じめん",
+        "いわ"
+      ],
+      "abilities": [
+        "ひらいしん",
+        "いしあたま",
+        "すてみ"
+      ],
+      "baseStatTotal": 485,
+      "heightM": 1.9,
+      "weightKg": 120,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣",
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png"
+    },
+    {
+      "dexNo": 113,
+      "nameJa": "ラッキー",
+      "nameEn": "chansey",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "しぜんかいふく",
+        "てんのめぐみ",
+        "いやしのこころ"
+      ],
+      "baseStatTotal": 450,
+      "heightM": 1.1,
+      "weightKg": 34.6,
+      "genderRate": 8,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "妖精"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png"
+    },
+    {
+      "dexNo": 114,
+      "nameJa": "モンジャラ",
+      "nameEn": "tangela",
+      "generation": 1,
+      "types": [
+        "くさ"
+      ],
+      "abilities": [
+        "ようりょくそ",
+        "リーフガード",
+        "さいせいりょく"
+      ],
+      "baseStatTotal": 435,
+      "heightM": 1,
+      "weightKg": 35,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "植物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png"
+    },
+    {
+      "dexNo": 115,
+      "nameJa": "ガルーラ",
+      "nameEn": "kangaskhan",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "はやおき",
+        "きもったま",
+        "せいしんりょく"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 2.2,
+      "weightKg": 80,
+      "genderRate": 8,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+    },
+    {
+      "dexNo": 116,
+      "nameJa": "タッツー",
+      "nameEn": "horsea",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "スナイパー",
+        "しめりけ"
+      ],
+      "baseStatTotal": 295,
+      "heightM": 0.4,
+      "weightKg": 8,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中1",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png"
+    },
+    {
+      "dexNo": 117,
+      "nameJa": "シードラ",
+      "nameEn": "seadra",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "どくのトゲ",
+        "スナイパー",
+        "しめりけ"
+      ],
+      "baseStatTotal": 440,
+      "heightM": 1.2,
+      "weightKg": 25,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中1",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png"
+    },
+    {
+      "dexNo": 118,
+      "nameJa": "トサキント",
+      "nameEn": "goldeen",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "みずのベール",
+        "ひらいしん"
+      ],
+      "baseStatTotal": 320,
+      "heightM": 0.6,
+      "weightKg": 15,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中2"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png"
+    },
+    {
+      "dexNo": 119,
+      "nameJa": "アズマオウ",
+      "nameEn": "seaking",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "みずのベール",
+        "ひらいしん"
+      ],
+      "baseStatTotal": 450,
+      "heightM": 1.3,
+      "weightKg": 39,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中2"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png"
+    },
+    {
+      "dexNo": 120,
+      "nameJa": "ヒトデマン",
+      "nameEn": "staryu",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "はっこう",
+        "しぜんかいふく",
+        "アナライズ"
+      ],
+      "baseStatTotal": 340,
+      "heightM": 0.8,
+      "weightKg": 34.5,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png"
+    },
+    {
+      "dexNo": 121,
+      "nameJa": "スターミー",
+      "nameEn": "starmie",
+      "generation": 1,
+      "types": [
+        "みず",
+        "エスパー"
+      ],
+      "abilities": [
+        "はっこう",
+        "しぜんかいふく",
+        "アナライズ"
+      ],
+      "baseStatTotal": 520,
+      "heightM": 1.1,
+      "weightKg": 80,
+      "genderRate": -1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+    },
+    {
+      "dexNo": 122,
+      "nameJa": "バリヤード",
+      "nameEn": "mr-mime",
+      "generation": 1,
+      "types": [
+        "エスパー",
+        "フェアリー"
+      ],
+      "abilities": [
+        "ぼうおん",
+        "フィルター",
+        "テクニシャン"
+      ],
+      "baseStatTotal": 460,
+      "heightM": 1.3,
+      "weightKg": 54.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png"
+    },
+    {
+      "dexNo": 123,
+      "nameJa": "ストライク",
+      "nameEn": "scyther",
+      "generation": 1,
+      "types": [
+        "むし",
+        "ひこう"
+      ],
+      "abilities": [
+        "むしのしらせ",
+        "テクニシャン",
+        "ふくつのこころ"
+      ],
+      "baseStatTotal": 500,
+      "heightM": 1.5,
+      "weightKg": 56,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+    },
+    {
+      "dexNo": 124,
+      "nameJa": "ルージュラ",
+      "nameEn": "jynx",
+      "generation": 1,
+      "types": [
+        "こおり",
+        "エスパー"
+      ],
+      "abilities": [
+        "どんかん",
+        "よちむ",
+        "かんそうはだ"
+      ],
+      "baseStatTotal": 455,
+      "heightM": 1.4,
+      "weightKg": 40.6,
+      "genderRate": 8,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png"
+    },
+    {
+      "dexNo": 125,
+      "nameJa": "エレブー",
+      "nameEn": "electabuzz",
+      "generation": 1,
+      "types": [
+        "でんき"
+      ],
+      "abilities": [
+        "せいでんき",
+        "やるき"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 1.1,
+      "weightKg": 30,
+      "genderRate": 2,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png"
+    },
+    {
+      "dexNo": 126,
+      "nameJa": "ブーバー",
+      "nameEn": "magmar",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "ほのおのからだ",
+        "やるき"
+      ],
+      "baseStatTotal": 495,
+      "heightM": 1.3,
+      "weightKg": 44.5,
+      "genderRate": 2,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "人型"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png"
+    },
+    {
+      "dexNo": 127,
+      "nameJa": "カイロス",
+      "nameEn": "pinsir",
+      "generation": 1,
+      "types": [
+        "むし"
+      ],
+      "abilities": [
+        "かいりきバサミ",
+        "かたやぶり",
+        "じしんかじょう"
+      ],
+      "baseStatTotal": 500,
+      "heightM": 1.5,
+      "weightKg": 55,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "虫"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
+    },
+    {
+      "dexNo": 128,
+      "nameJa": "ケンタロス",
+      "nameEn": "tauros",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "いかく",
+        "いかりのつぼ",
+        "ちからずく"
+      ],
+      "baseStatTotal": 490,
+      "heightM": 1.4,
+      "weightKg": 88.4,
+      "genderRate": 0,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png"
+    },
+    {
+      "dexNo": 129,
+      "nameJa": "コイキング",
+      "nameEn": "magikarp",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "びびり"
+      ],
+      "baseStatTotal": 200,
+      "heightM": 0.9,
+      "weightKg": 10,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中2",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+    },
+    {
+      "dexNo": 130,
+      "nameJa": "ギャラドス",
+      "nameEn": "gyarados",
+      "generation": 1,
+      "types": [
+        "みず",
+        "ひこう"
+      ],
+      "abilities": [
+        "いかく",
+        "じしんかじょう"
+      ],
+      "baseStatTotal": 540,
+      "heightM": 6.5,
+      "weightKg": 235,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中2",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+    },
+    {
+      "dexNo": 131,
+      "nameJa": "ラプラス",
+      "nameEn": "lapras",
+      "generation": 1,
+      "types": [
+        "みず",
+        "こおり"
+      ],
+      "abilities": [
+        "ちょすい",
+        "シェルアーマー",
+        "うるおいボディ"
+      ],
+      "baseStatTotal": 535,
+      "heightM": 2.5,
+      "weightKg": 220,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "怪獣",
+        "水中1"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+    },
+    {
+      "dexNo": 132,
+      "nameJa": "メタモン",
+      "nameEn": "ditto",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "じゅうなん",
+        "かわりもの"
+      ],
+      "baseStatTotal": 288,
+      "heightM": 0.3,
+      "weightKg": 4,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "メタモン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+    },
+    {
+      "dexNo": 133,
+      "nameJa": "イーブイ",
+      "nameEn": "eevee",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "にげあし",
+        "てきおうりょく",
+        "きけんよち"
+      ],
+      "baseStatTotal": 325,
+      "heightM": 0.3,
+      "weightKg": 6.5,
+      "genderRate": 1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+    },
+    {
+      "dexNo": 134,
+      "nameJa": "シャワーズ",
+      "nameEn": "vaporeon",
+      "generation": 1,
+      "types": [
+        "みず"
+      ],
+      "abilities": [
+        "ちょすい",
+        "うるおいボディ"
+      ],
+      "baseStatTotal": 525,
+      "heightM": 1,
+      "weightKg": 29,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+    },
+    {
+      "dexNo": 135,
+      "nameJa": "サンダース",
+      "nameEn": "jolteon",
+      "generation": 1,
+      "types": [
+        "でんき"
+      ],
+      "abilities": [
+        "ちくでん",
+        "はやあし"
+      ],
+      "baseStatTotal": 525,
+      "heightM": 0.8,
+      "weightKg": 24.5,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+    },
+    {
+      "dexNo": 136,
+      "nameJa": "ブースター",
+      "nameEn": "flareon",
+      "generation": 1,
+      "types": [
+        "ほのお"
+      ],
+      "abilities": [
+        "もらいび",
+        "こんじょう"
+      ],
+      "baseStatTotal": 525,
+      "heightM": 0.9,
+      "weightKg": 25,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "陸上"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+    },
+    {
+      "dexNo": 137,
+      "nameJa": "ポリゴン",
+      "nameEn": "porygon",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "トレース",
+        "ダウンロード",
+        "アナライズ"
+      ],
+      "baseStatTotal": 395,
+      "heightM": 0.8,
+      "weightKg": 36.5,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "鉱物"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png"
+    },
+    {
+      "dexNo": 138,
+      "nameJa": "オムナイト",
+      "nameEn": "omanyte",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "シェルアーマー",
+        "くだけるよろい"
+      ],
+      "baseStatTotal": 355,
+      "heightM": 0.4,
+      "weightKg": 7.5,
+      "genderRate": 1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中1",
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png"
+    },
+    {
+      "dexNo": 139,
+      "nameJa": "オムスター",
+      "nameEn": "omastar",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "シェルアーマー",
+        "くだけるよろい"
+      ],
+      "baseStatTotal": 495,
+      "heightM": 1,
+      "weightKg": 35,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中1",
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png"
+    },
+    {
+      "dexNo": 140,
+      "nameJa": "カブト",
+      "nameEn": "kabuto",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "カブトアーマー",
+        "くだけるよろい"
+      ],
+      "baseStatTotal": 355,
+      "heightM": 0.5,
+      "weightKg": 11.5,
+      "genderRate": 1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中1",
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png"
+    },
+    {
+      "dexNo": 141,
+      "nameJa": "カブトプス",
+      "nameEn": "kabutops",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "みず"
+      ],
+      "abilities": [
+        "すいすい",
+        "カブトアーマー",
+        "くだけるよろい"
+      ],
+      "baseStatTotal": 495,
+      "heightM": 1.3,
+      "weightKg": 40.5,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中1",
+        "水中3"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png"
+    },
+    {
+      "dexNo": 142,
+      "nameJa": "プテラ",
+      "nameEn": "aerodactyl",
+      "generation": 1,
+      "types": [
+        "いわ",
+        "ひこう"
+      ],
+      "abilities": [
+        "いしあたま",
+        "プレッシャー",
+        "きんちょうかん"
+      ],
+      "baseStatTotal": 515,
+      "heightM": 1.8,
+      "weightKg": 59,
+      "genderRate": 1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "飛行"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+    },
+    {
+      "dexNo": 143,
+      "nameJa": "カビゴン",
+      "nameEn": "snorlax",
+      "generation": 1,
+      "types": [
+        "ノーマル"
+      ],
+      "abilities": [
+        "めんえき",
+        "あついしぼう",
+        "くいしんぼう"
+      ],
+      "baseStatTotal": 540,
+      "heightM": 2.1,
+      "weightKg": 460,
+      "genderRate": 1,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "怪獣"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+    },
+    {
+      "dexNo": 144,
+      "nameJa": "フリーザー",
+      "nameEn": "articuno",
+      "generation": 1,
+      "types": [
+        "こおり",
+        "ひこう"
+      ],
+      "abilities": [
+        "プレッシャー",
+        "ゆきがくれ"
+      ],
+      "baseStatTotal": 580,
+      "heightM": 1.7,
+      "weightKg": 55.4,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "タマゴ未発見"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+    },
+    {
+      "dexNo": 145,
+      "nameJa": "サンダー",
+      "nameEn": "zapdos",
+      "generation": 1,
+      "types": [
+        "でんき",
+        "ひこう"
+      ],
+      "abilities": [
+        "プレッシャー",
+        "せいでんき"
+      ],
+      "baseStatTotal": 580,
+      "heightM": 1.6,
+      "weightKg": 52.6,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "タマゴ未発見"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+    },
+    {
+      "dexNo": 146,
+      "nameJa": "ファイヤー",
+      "nameEn": "moltres",
+      "generation": 1,
+      "types": [
+        "ほのお",
+        "ひこう"
+      ],
+      "abilities": [
+        "プレッシャー",
+        "ほのおのからだ"
+      ],
+      "baseStatTotal": 580,
+      "heightM": 2,
+      "weightKg": 60,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "タマゴ未発見"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+    },
+    {
+      "dexNo": 147,
+      "nameJa": "ミニリュウ",
+      "nameEn": "dratini",
+      "generation": 1,
+      "types": [
+        "ドラゴン"
+      ],
+      "abilities": [
+        "だっぴ",
+        "ふしぎなうろこ"
+      ],
+      "baseStatTotal": 300,
+      "heightM": 1.8,
+      "weightKg": 3.3,
+      "genderRate": 4,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "水中1",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+    },
+    {
+      "dexNo": 148,
+      "nameJa": "ハクリュー",
+      "nameEn": "dragonair",
+      "generation": 1,
+      "types": [
+        "ドラゴン"
+      ],
+      "abilities": [
+        "だっぴ",
+        "ふしぎなうろこ"
+      ],
+      "baseStatTotal": 420,
+      "heightM": 4,
+      "weightKg": 16.5,
+      "genderRate": 4,
+      "evolutionCount": 1,
+      "eggGroups": [
+        "水中1",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
+    },
+    {
+      "dexNo": 149,
+      "nameJa": "カイリュー",
+      "nameEn": "dragonite",
+      "generation": 1,
+      "types": [
+        "ドラゴン",
+        "ひこう"
+      ],
+      "abilities": [
+        "せいしんりょく",
+        "マルチスケイル"
+      ],
+      "baseStatTotal": 600,
+      "heightM": 2.2,
+      "weightKg": 210,
+      "genderRate": 4,
+      "evolutionCount": 2,
+      "eggGroups": [
+        "水中1",
+        "ドラゴン"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+    },
+    {
+      "dexNo": 150,
+      "nameJa": "ミュウツー",
+      "nameEn": "mewtwo",
+      "generation": 1,
+      "types": [
+        "エスパー"
+      ],
+      "abilities": [
+        "プレッシャー",
+        "きんちょうかん"
+      ],
+      "baseStatTotal": 680,
+      "heightM": 2,
+      "weightKg": 122,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "タマゴ未発見"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    },
+    {
+      "dexNo": 151,
+      "nameJa": "ミュウ",
+      "nameEn": "mew",
+      "generation": 1,
+      "types": [
+        "エスパー"
+      ],
+      "abilities": [
+        "シンクロ"
+      ],
+      "baseStatTotal": 600,
+      "heightM": 0.4,
+      "weightKg": 4,
+      "genderRate": -1,
+      "evolutionCount": 0,
+      "eggGroups": [
+        "タマゴ未発見"
+      ],
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+    }
+  ]
+}
