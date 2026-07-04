@@ -26,13 +26,13 @@ pnpm test
 
 ## データ生成方法
 
-PokeAPI v2 からデータを取得して `public/data/pokemon-db.json` を生成します。
+PokeAPI v2 から全ポケモンのデータを取得して `public/data/pokemon-db.json` を生成します。
 
 ```bash
 pnpm run build:data
 ```
 
-取得上限は環境変数で変更できます。
+デフォルトでは PokeAPI の `pokemon-species` 件数を使って全件取得します。検証用に取得上限を絞る場合は環境変数で変更できます。
 
 ```bash
 POKEMON_MAX_DEX_NO=151 pnpm run build:data

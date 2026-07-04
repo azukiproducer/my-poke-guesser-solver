@@ -8,7 +8,7 @@ const rootDir = path.resolve(__dirname, '..');
 const cacheDir = path.join(rootDir, '.cache', 'pokeapi');
 const outputPath = path.join(rootDir, 'public', 'data', 'pokemon-db.json');
 const apiBase = 'https://pokeapi.co/api/v2';
-const maxDexNo = Number(process.env.POKEMON_MAX_DEX_NO ?? 1025);
+const configuredMaxDexNo = process.env.POKEMON_MAX_DEX_NO ? Number(process.env.POKEMON_MAX_DEX_NO) : null;
 const sleepMs = Number(process.env.POKEAPI_SLEEP_MS ?? 120);
 const eggGroupNamesJa: Record<string, string> = {
   monster: '怪獣',
@@ -71,6 +71,10 @@ interface EvolutionChainResponse {
 interface EvolutionNode {
   species: NamedResource;
   evolves_to: EvolutionNode[];
+}
+
+interface ListApiResponse {
+  count: number;
 }
 
 async function sleep(ms: number): Promise<void> {
@@ -142,14 +146,19 @@ function evolutionDepth(node: EvolutionNode, speciesName: string, depth = 0): nu
   return null;
 }
 
-async function buildEntry(id: number): Promise<PokemonEntry | null> {
+async function resolveMaxDexNo(): Promise<number> {
+  if (configuredMaxDexNo !== null) return configuredMaxDexNo;
+
+  const data = await fetchJson<ListApiResponse>(`${apiBase}/pokemon-species?limit=1`);
+  return data.count;
+}
+
+async function buildEntry(id: number): Promise<PokemonEntry> {
   const species = await fetchJson<SpeciesApiResponse>(`${apiBase}/pokemon-species/${id}`);
   const defaultVariety = species.varieties.find((variety) => variety.is_default);
   const pokemonUrl = defaultVariety?.pokemon.url ?? `${apiBase}/pokemon/${id}`;
   const pokemon = await fetchJson<PokemonApiResponse>(pokemonUrl);
   const chain = await fetchJson<EvolutionChainResponse>(species.evolution_chain.url);
-
-  if (pokemon.id > maxDexNo) return null;
 
   const types = await Promise.all(
     pokemon.types
@@ -182,14 +191,13 @@ async function buildEntry(id: number): Promise<PokemonEntry | null> {
 
 async function main(): Promise<void> {
   const entries: PokemonEntry[] = [];
+  const maxDexNo = await resolveMaxDexNo();
 
   for (let id = 1; id <= maxDexNo; id += 1) {
     try {
       const entry = await buildEntry(id);
-      if (entry) {
-        entries.push(entry);
-        console.log(`(${id}/${maxDexNo}) ${entry.nameEn}`);
-      }
+      entries.push(entry);
+      console.log(`(${id}/${maxDexNo}) ${entry.nameEn}`);
     } catch (error) {
       console.warn(`Skip ${id}:`, error instanceof Error ? error.message : error);
     }
