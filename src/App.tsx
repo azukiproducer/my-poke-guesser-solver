@@ -63,7 +63,7 @@ function findPokemonByQuery(query: string, pokemon: readonly PokemonEntry[]): Po
 
   return pokemon.find((entry) => {
     const optionLabel = pokemonOptionLabel(entry).toLowerCase();
-    return optionLabel === normalized || entry.nameJa === query.trim() || entry.nameEn.toLowerCase() === normalized;
+    return optionLabel === normalized || entry.nameJa === query.trim();
   });
 }
 
@@ -204,9 +204,7 @@ export default function App() {
               />
               <datalist id="pokemon-options">
                 {pokemon.map((entry) => (
-                  <option key={entry.dexNo} value={pokemonOptionLabel(entry)}>
-                    {entry.nameEn}
-                  </option>
+                  <option key={entry.dexNo} value={pokemonOptionLabel(entry)} />
                 ))}
               </datalist>
             </label>
@@ -410,7 +408,7 @@ function PokemonTable({ candidates, sort, onPickPokemon, onSort }: PokemonTableP
             <tr key={entry.dexNo} onDoubleClick={() => onPickPokemon(entry)} title="ダブルクリックで入力ポケモンに設定">
               <td><img className="sprite" src={entry.spriteUrl} alt="" loading="lazy" /></td>
               <td>No.{entry.dexNo}</td>
-              <td><strong>{entry.nameJa}</strong><br /><span className="muted">{entry.nameEn}</span></td>
+              <td className="nameCell"><strong>{entry.nameJa}</strong></td>
               <td>{entry.generation}</td>
               <td>{entry.baseStatTotal}</td>
               <td>{labelValues(entry.types, typeLabels)}</td>

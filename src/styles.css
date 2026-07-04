@@ -113,6 +113,7 @@ h2 {
 
 input,
 select {
+  color-scheme: light;
   width: 100%;
   border: 1px solid #cbd6df;
   border-radius: 6px;
@@ -120,6 +121,11 @@ select {
   color: #17202a;
   min-height: 40px;
   padding: 8px 10px;
+}
+
+option {
+  background: #fff;
+  color: #17202a;
 }
 
 .hintGrid {
@@ -368,7 +374,7 @@ select {
 
 table {
   width: 100%;
-  min-width: 1100px;
+  min-width: 1040px;
   border-collapse: collapse;
 }
 
@@ -379,6 +385,12 @@ td {
   text-align: left;
   vertical-align: middle;
   white-space: nowrap;
+}
+
+.nameCell {
+  max-width: 8.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 tbody tr {
