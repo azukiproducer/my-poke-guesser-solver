@@ -29,6 +29,23 @@ const equalityOnlyNumericFields = new Set<NumericField>(['genderRate', 'evolutio
 const numericHintOptions: NumericHint[] = ['any', 'match', 'higher', 'lower'];
 const equalityNumericHintOptions: NumericHint[] = ['any', 'match', 'notMatch'];
 const setHintOptions: SetHint[] = ['any', 'exact', 'partial', 'none'];
+const hintRows: ({ kind: 'numeric'; field: NumericField } | { kind: 'set'; field: 'types' | 'abilities' | 'eggGroups' })[][] = [
+  [
+    { kind: 'numeric', field: 'generation' },
+    { kind: 'numeric', field: 'baseStatTotal' },
+  ],
+  [{ kind: 'set', field: 'types' }],
+  [{ kind: 'set', field: 'abilities' }],
+  [
+    { kind: 'numeric', field: 'heightM' },
+    { kind: 'numeric', field: 'weightKg' },
+  ],
+  [
+    { kind: 'numeric', field: 'genderRate' },
+    { kind: 'numeric', field: 'evolutionCount' },
+  ],
+  [{ kind: 'set', field: 'eggGroups' }],
+];
 
 function pokemonOptionLabel(pokemon: PokemonEntry): string {
   return `${pokemon.dexNo}: ${pokemon.nameJa}`;
@@ -165,36 +182,40 @@ export default function App() {
             </label>
 
             <div className="hintGrid">
-              {numericFields.map((field) => (
-                <HintButtonGroup
-                  key={field}
-                  label={numericFieldLabels[field]}
-                  value={draft.numericHints[field]}
-                  options={equalityOnlyNumericFields.has(field) ? equalityNumericHintOptions : numericHintOptions}
-                  labels={numericHintLabels}
-                  onChange={(value) =>
-                    setDraft((current) => ({
-                      ...current,
-                      numericHints: { ...current.numericHints, [field]: value },
-                    }))
-                  }
-                />
-              ))}
-
-              {setFields.map((field) => (
-                <HintButtonGroup
-                  key={field}
-                  label={setFieldLabels[field]}
-                  value={draft.setHints[field]}
-                  options={setHintOptions}
-                  labels={setHintLabels}
-                  onChange={(value) =>
-                    setDraft((current) => ({
-                      ...current,
-                      setHints: { ...current.setHints, [field]: value },
-                    }))
-                  }
-                />
+              {hintRows.map((row, index) => (
+                <div className={row.length === 1 ? 'hintRow single' : 'hintRow'} key={index}>
+                  {row.map((item) =>
+                    item.kind === 'numeric' ? (
+                      <HintButtonGroup
+                        key={item.field}
+                        label={numericFieldLabels[item.field]}
+                        value={draft.numericHints[item.field]}
+                        options={equalityOnlyNumericFields.has(item.field) ? equalityNumericHintOptions : numericHintOptions}
+                        labels={numericHintLabels}
+                        onChange={(value) =>
+                          setDraft((current) => ({
+                            ...current,
+                            numericHints: { ...current.numericHints, [item.field]: value },
+                          }))
+                        }
+                      />
+                    ) : (
+                      <HintButtonGroup
+                        key={item.field}
+                        label={setFieldLabels[item.field]}
+                        value={draft.setHints[item.field]}
+                        options={setHintOptions}
+                        labels={setHintLabels}
+                        onChange={(value) =>
+                          setDraft((current) => ({
+                            ...current,
+                            setHints: { ...current.setHints, [item.field]: value },
+                          }))
+                        }
+                      />
+                    ),
+                  )}
+                </div>
               ))}
             </div>
 
@@ -276,16 +297,39 @@ function HintButtonGroup<T extends NumericHint | SetHint>({ label, value, option
           <button
             aria-pressed={option === value}
             className={option === value ? 'active' : ''}
+            data-hint={option}
             key={option}
             onClick={() => onChange(option)}
             type="button"
           >
-            {labels[option]}
+            <HintButtonContent hint={option} label={labels[option]} />
           </button>
         ))}
       </div>
     </fieldset>
   );
+}
+
+function HintButtonContent({ hint, label }: { hint: NumericHint | SetHint; label: string }) {
+  if (hint === 'higher') {
+    return (
+      <>
+        <span className="hintIcon up">▲</span>
+        <span>{label}</span>
+      </>
+    );
+  }
+
+  if (hint === 'lower') {
+    return (
+      <>
+        <span className="hintIcon down">▼</span>
+        <span>{label}</span>
+      </>
+    );
+  }
+
+  return <span>{label}</span>;
 }
 
 interface PokemonTableProps {

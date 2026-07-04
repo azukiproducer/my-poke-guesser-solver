@@ -124,8 +124,17 @@ select {
 
 .hintGrid {
   display: grid;
+  gap: 12px;
+}
+
+.hintRow {
+  display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px 12px;
+  gap: 12px;
+}
+
+.hintRow.single {
+  grid-template-columns: 1fr;
 }
 
 .segmented {
@@ -135,6 +144,10 @@ select {
 }
 
 .segmented button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
   min-height: 36px;
   border: 1px solid #cbd6df;
   border-radius: 6px;
@@ -146,11 +159,78 @@ select {
   padding: 6px 8px;
 }
 
+.hintIcon {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.hintIcon.up {
+  color: #d33232;
+}
+
+.hintIcon.down {
+  color: #2364d8;
+}
+
+.segmented button[data-hint="higher"] {
+  border-color: #efb5b5;
+  background: #fff6f6;
+  color: #8f1f1f;
+}
+
+.segmented button[data-hint="lower"] {
+  border-color: #aac3f4;
+  background: #f4f8ff;
+  color: #1b4ca8;
+}
+
+.segmented button[data-hint="match"],
+.segmented button[data-hint="exact"] {
+  border-color: #9bcaa9;
+  background: #f2fbf4;
+  color: #1f6f35;
+}
+
+.segmented button[data-hint="partial"] {
+  border-color: #e8ca63;
+  background: #fff9df;
+  color: #765b00;
+}
+
 .segmented button.active {
   border-color: #2454d6;
   background: #eaf0ff;
   color: #193fa8;
   box-shadow: inset 0 0 0 1px #2454d6;
+}
+
+.segmented button.active[data-hint="higher"] {
+  border-color: #d33232;
+  background: #ffe3e3;
+  color: #8d1818;
+  box-shadow: inset 0 0 0 1px #d33232;
+}
+
+.segmented button.active[data-hint="lower"] {
+  border-color: #2364d8;
+  background: #e0ebff;
+  color: #153f94;
+  box-shadow: inset 0 0 0 1px #2364d8;
+}
+
+.segmented button.active[data-hint="match"],
+.segmented button.active[data-hint="exact"] {
+  border-color: #2e9d4d;
+  background: #dff5e5;
+  color: #155f2a;
+  box-shadow: inset 0 0 0 1px #2e9d4d;
+}
+
+.segmented button.active[data-hint="partial"] {
+  border-color: #d5a900;
+  background: #fff0a8;
+  color: #604a00;
+  box-shadow: inset 0 0 0 1px #d5a900;
 }
 
 .selected {
@@ -295,7 +375,7 @@ th {
 }
 
 @media (max-width: 560px) {
-  .hintGrid {
+  .hintRow {
     grid-template-columns: 1fr;
   }
 }
