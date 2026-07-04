@@ -138,7 +138,7 @@ export default function App() {
   if (loadError) {
     return (
       <main className="page">
-        <h1>Poke Guesser Solver</h1>
+        <h1>poke-guesser solver</h1>
         <section className="card error">pokemon-db.json を読み込めませんでした: {loadError}</section>
       </main>
     );
@@ -148,8 +148,7 @@ export default function App() {
     <main className="page">
       <header className="appHeader">
         <div>
-          <h1>Poke Guesser Solver</h1>
-          <p>手入力した判定結果から候補を絞り込む静的ソルバー</p>
+          <h1>poke-guesser solver</h1>
         </div>
         <div className="meta">
           <span>候補 {filtered.length} / {pokemon.length}</span>
