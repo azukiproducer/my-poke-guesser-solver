@@ -188,6 +188,19 @@ select {
   color: #1b4ca8;
 }
 
+.segmented button[data-hint="any"] {
+  border-color: #d1d8e0;
+  background: #f8fafc;
+  color: #53606d;
+}
+
+.segmented button[data-hint="notMatch"],
+.segmented button[data-hint="none"] {
+  border-color: #bac4cf;
+  background: #f7f8fa;
+  color: #46515e;
+}
+
 .segmented button[data-hint="match"],
 .segmented button[data-hint="exact"] {
   border-color: #9bcaa9;
@@ -202,10 +215,17 @@ select {
 }
 
 .segmented button.active {
-  border-color: #2454d6;
-  background: #eaf0ff;
-  color: #193fa8;
-  box-shadow: inset 0 0 0 1px #2454d6;
+  border-color: #667085;
+  background: #eef2f6;
+  color: #344054;
+  box-shadow: inset 0 0 0 1px #667085;
+}
+
+.segmented button.active[data-hint="any"] {
+  border-color: #98a2b3;
+  background: #eef2f6;
+  color: #344054;
+  box-shadow: inset 0 0 0 1px #98a2b3;
 }
 
 .segmented button.active[data-hint="higher"] {
@@ -220,6 +240,14 @@ select {
   background: #e0ebff;
   color: #153f94;
   box-shadow: inset 0 0 0 1px #2364d8;
+}
+
+.segmented button.active[data-hint="notMatch"],
+.segmented button.active[data-hint="none"] {
+  border-color: #64748b;
+  background: #e9edf2;
+  color: #2f3a45;
+  box-shadow: inset 0 0 0 1px #64748b;
 }
 
 .segmented button.active[data-hint="match"],
