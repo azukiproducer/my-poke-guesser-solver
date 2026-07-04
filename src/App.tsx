@@ -153,6 +153,14 @@ export default function App() {
     setDraft((current) => ({ ...current, pokemonDexNo: entry.dexNo }));
   }
 
+  function resetSolver() {
+    const firstPokemon = pokemon[0];
+    setTrials([]);
+    setSort({ key: 'dexNo', direction: 'asc' });
+    setDraft(emptyTrial(firstPokemon?.dexNo ?? 1));
+    setPokemonQuery(firstPokemon ? pokemonOptionLabel(firstPokemon) : '');
+  }
+
   if (loadError) {
     return (
       <main className="page">
@@ -257,7 +265,10 @@ export default function App() {
           </section>
 
           <section className="card">
-            <h2>試行履歴</h2>
+            <div className="sectionHeader">
+              <h2>試行履歴</h2>
+              <button className="secondary danger" onClick={resetSolver} type="button">全部リセット</button>
+            </div>
             {trials.length === 0 ? (
               <p className="muted">まだ条件はありません。</p>
             ) : (

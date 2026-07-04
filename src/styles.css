@@ -276,6 +276,26 @@ select {
   cursor: not-allowed;
 }
 
+.secondary {
+  border: 1px solid #d1dce5;
+  border-radius: 6px;
+  background: #fff;
+  color: #344252;
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 34px;
+  padding: 5px 10px;
+}
+
+.secondary.danger {
+  border-color: #efb5b5;
+  color: #9f2439;
+}
+
+.secondary.danger:hover {
+  background: #fff6f6;
+}
+
 .trialList {
   display: grid;
   gap: 12px;
