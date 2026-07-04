@@ -329,6 +329,14 @@ td {
   white-space: nowrap;
 }
 
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background: #f6f9fc;
+}
+
 th {
   position: sticky;
   top: 0;

@@ -130,6 +130,11 @@ export default function App() {
     }));
   }
 
+  function pickPokemon(entry: PokemonEntry) {
+    setPokemonQuery(pokemonOptionLabel(entry));
+    setDraft((current) => ({ ...current, pokemonDexNo: entry.dexNo }));
+  }
+
   if (loadError) {
     return (
       <main className="page">
@@ -273,7 +278,7 @@ export default function App() {
             <h2>候補一覧</h2>
             <span>{filtered.length}件</span>
           </div>
-          <PokemonTable candidates={sortedCandidates} sort={sort} onSort={updateSort} />
+          <PokemonTable candidates={sortedCandidates} sort={sort} onPickPokemon={pickPokemon} onSort={updateSort} />
         </section>
       </div>
     </main>
@@ -335,10 +340,11 @@ function HintButtonContent({ hint, label }: { hint: NumericHint | SetHint; label
 interface PokemonTableProps {
   candidates: PokemonEntry[];
   sort: SortState;
+  onPickPokemon: (pokemon: PokemonEntry) => void;
   onSort: (key: SortKey) => void;
 }
 
-function PokemonTable({ candidates, sort, onSort }: PokemonTableProps) {
+function PokemonTable({ candidates, sort, onPickPokemon, onSort }: PokemonTableProps) {
   const headers: { key: SortKey; label: string }[] = [
     { key: 'dexNo', label: '図鑑番号' },
     { key: 'nameJa', label: '名前' },
@@ -371,7 +377,7 @@ function PokemonTable({ candidates, sort, onSort }: PokemonTableProps) {
         </thead>
         <tbody>
           {candidates.map((entry) => (
-            <tr key={entry.dexNo}>
+            <tr key={entry.dexNo} onDoubleClick={() => onPickPokemon(entry)} title="ダブルクリックで入力ポケモンに設定">
               <td><img className="sprite" src={entry.spriteUrl} alt="" loading="lazy" /></td>
               <td>No.{entry.dexNo}</td>
               <td><strong>{entry.nameJa}</strong><br /><span className="muted">{entry.nameEn}</span></td>
