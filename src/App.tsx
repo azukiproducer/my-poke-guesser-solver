@@ -27,8 +27,8 @@ const defaultNumericHints = Object.fromEntries(numericFields.map((field) => [fie
 const defaultSetHints = Object.fromEntries(setFields.map((field) => [field, 'any'])) as GuessTrial['setHints'];
 const equalityOnlyNumericFields = new Set<NumericField>(['genderRate', 'evolutionCount']);
 const numericHintOptions: NumericHint[] = ['any', 'match', 'higher', 'lower'];
-const equalityNumericHintOptions: NumericHint[] = ['any', 'match', 'notMatch'];
-const setHintOptions: SetHint[] = ['any', 'exact', 'partial', 'none'];
+const equalityNumericHintOptions: NumericHint[] = ['any', 'notMatch', 'match'];
+const setHintOptions: SetHint[] = ['any', 'none', 'partial', 'exact'];
 const hintRows: ({ kind: 'numeric'; field: NumericField } | { kind: 'set'; field: 'types' | 'abilities' | 'eggGroups' })[][] = [
   [
     { kind: 'numeric', field: 'generation' },
@@ -294,10 +294,12 @@ interface HintButtonGroupProps<T extends NumericHint | SetHint> {
 }
 
 function HintButtonGroup<T extends NumericHint | SetHint>({ label, value, options, labels, onChange }: HintButtonGroupProps<T>) {
+  const isEqualityNumericGroup = (options as readonly (NumericHint | SetHint)[]).includes('notMatch');
+
   return (
     <fieldset className="field hintGroup">
       <legend>{label}</legend>
-      <div className="segmented">
+      <div className={isEqualityNumericGroup ? 'segmented equality' : 'segmented'}>
         {options.map((option) => (
           <button
             aria-pressed={option === value}
