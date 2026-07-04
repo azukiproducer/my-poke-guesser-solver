@@ -110,17 +110,35 @@ export default function App() {
 
   function addTrial() {
     if (!inputPokemon) return;
-    setTrials((current) => [
-      ...current,
-      {
-        ...draft,
-        pokemonDexNo: inputPokemon.dexNo,
-        numericHints: { ...draft.numericHints },
-        setHints: { ...draft.setHints },
-        id: crypto.randomUUID(),
-        createdAt: new Date().toISOString(),
-      },
-    ]);
+    const nextTrial = {
+      ...draft,
+      pokemonDexNo: inputPokemon.dexNo,
+      numericHints: { ...draft.numericHints },
+      setHints: { ...draft.setHints },
+      createdAt: new Date().toISOString(),
+    };
+
+    setTrials((current) => {
+      const existingTrial = current.find((trial) => trial.pokemonDexNo === inputPokemon.dexNo);
+      if (!existingTrial) {
+        return [
+          ...current,
+          {
+            ...nextTrial,
+            id: crypto.randomUUID(),
+          },
+        ];
+      }
+
+      return current.map((trial) =>
+        trial.pokemonDexNo === inputPokemon.dexNo
+          ? {
+              ...nextTrial,
+              id: trial.id,
+            }
+          : trial,
+      );
+    });
   }
 
   function updateSort(key: SortKey) {
